@@ -1,0 +1,77 @@
+@font-face{
+    font-family: robo;
+    src: url(./fonts/Roboto_Slab/static/RobotoSlab-Regular.ttf);
+}
+
+body{
+    background: black;
+}
+
+@font-face{
+    font-family: play;
+    src: url(./fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family: mont;
+    src: url(./fonts/Montserrat/static/Montserrat-Regular.ttf);
+}
+
+.navbar
+{
+    display: flex;
+    padding: 15px;
+}
+
+.home,.about{
+    margin-right: 20px;
+}
+
+.home,.about,.contact{
+    font-size: 20px;
+    font-family: mont;
+    color: white;
+}
+
+.top
+{
+    display: flex;
+}
+
+.streamixx{
+    font-size: 40px;
+    margin-right: 450px;
+    font-family: play;
+    color: white;
+}
+
+@media (max-width:768px)
+{
+    .top
+    {
+        flex-direction: column;
+    }
+
+    .navbar
+    {
+        margin-top: 30px;
+        justify-content: center;
+    }
+
+    .home,.about
+    {
+        margin-bottom: 20px;
+        margin-right: 40px;
+    }
+
+    .home,.about,.contact
+    {
+        margin-left: -10px;
+    }
+
+    .streamixx
+    {
+        justify-content: center;
+        margin-left: 110px;
+    }
+}

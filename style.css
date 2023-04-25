@@ -17,6 +17,21 @@ body{
     src: url(./fonts/Montserrat/static/Montserrat-Regular.ttf);
 }
 
+.logosite{
+    width: 40px;
+    margin-right: 5px;
+    display: flex;
+}
+
+a
+{
+    text-decoration: none;
+}
+.logo
+{
+    display: flex;
+}
+
 .navbar
 {
     display: flex;

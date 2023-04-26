@@ -2,7 +2,9 @@
     font-family: robo;
     src: url(./fonts/Roboto_Slab/static/RobotoSlab-Regular.ttf);
 }
-
+.{
+    font-family: 'Poppins', sans-serif;
+}
 body{
     background: black;
 }

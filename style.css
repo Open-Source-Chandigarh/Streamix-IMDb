@@ -3,7 +3,7 @@
     src: url(./fonts/Roboto_Slab/static/RobotoSlab-Regular.ttf);
 }
 .{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
 }
 body{
     background: black;
@@ -46,7 +46,7 @@ a
 
 .home,.about,.contact{
     font-size: 25px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
     color: white;
 }
 
@@ -59,7 +59,7 @@ a
 
 .streamixx{
     font-size: 40px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
     color: white;
     display: flex;
 }

@@ -58,10 +58,11 @@ a
 }
 
 .streamixx{
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'Poppins';
     color: white;
     display: flex;
+    letter-spacing: 5px;
 }
 
 .welcome{

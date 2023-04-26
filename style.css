@@ -83,6 +83,13 @@ a
     z-index: -1;
     position: relative;
     top: -305px;
+    animation-name: example;
+    animation-duration: 10s;
+}
+
+@keyframes example {
+    0%   {background-color:red; left: -2000px;}
+    100%  {background-color:yellow; left: 0;}
 }
 
 @media (max-width:768px)

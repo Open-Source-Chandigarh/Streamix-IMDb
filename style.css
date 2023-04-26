@@ -46,7 +46,7 @@ a
 
 .home,.about,.contact{
     font-size: 25px;
-    font-family: mont;
+    font-family: 'Poppins', sans-serif;
     color: white;
 }
 
@@ -59,7 +59,7 @@ a
 
 .streamixx{
     font-size: 40px;
-    font-family: play;
+    font-family: 'Poppins', sans-serif;
     color: white;
     display: flex;
 }

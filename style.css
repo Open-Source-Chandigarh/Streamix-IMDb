@@ -79,7 +79,7 @@ a
     height: 300px;
 }
 
-.image
+.image1
 {
     height: 300px;
     width: 200%;
@@ -88,14 +88,32 @@ a
     z-index: -1;
     position: relative;
     top: -305px;
-    animation-name: example;
-    animation-duration: 10s;
+    animation-name: example1;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
-    background-repeat: repeat-x;
 }
 
-@keyframes example {
+.image2
+{
+    height: 300px;
+    width: 200%;
+    background-image: url(Welcome.jpg);
+    background-size: cover;
+    z-index: -1;
+    position: relative;
+    top: -605px;
+    animation-name: example2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example1 {
     0%   {background-color:red; left: -100%;}
+    100%  {background-color:yellow; left: 0%;}
+}
+
+@keyframes example2 {
+    0%   {background-color:red; left: 0%;}
     100%  {background-color:yellow; left: 100%;}
 }
 

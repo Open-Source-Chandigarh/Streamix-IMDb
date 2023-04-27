@@ -232,3 +232,103 @@ a
         font-size: 60px;
     }
 }
+
+.welcomemessage
+{
+    color: blue;
+    text-align: center;
+    font-size: 2.5vw;
+    text-shadow: 0 0 15px yellow;
+}
+
+.aboutsection
+{
+    height: 680px;
+    border: 5px solid lightseagreen;
+}
+
+.aboutline
+{
+    color: blue;
+    text-align: center;
+    font-size: 5vw;
+    font-weight: 800;
+}
+
+.nameaboutcontainer
+{
+    color: white;
+    display: flex;
+    gap: 500px;
+    position: absolute;
+    top: 1100px;
+    margin-left: 40px;
+    font-weight: 600;
+}
+
+.iconstore1
+{
+    display: flex;
+    width: max-content;
+    flex-direction: column;
+    gap: 20px;
+    opacity: 0%;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.iconstore2
+{
+    display: flex;
+    width: max-content;
+    flex-direction: column;
+    gap: 20px;
+    opacity: 0%;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.iconstore3
+{
+    display: flex;
+    width: max-content;
+    flex-direction: column;
+    gap: 20px;
+    opacity: 0%;
+    margin-top: 10px;
+    margin-left: 30px;  
+}
+
+.instac
+{
+    width: 50px;
+    height: 50px;
+    background-image: url(instaicon.png);
+    background-size: cover;
+}
+
+.linkedinc
+{
+    width: 50px;
+    height: 50px;
+    background-image: url(linkedin.png);
+    background-size: cover;
+}
+
+.harshits:hover > .iconstore1
+{
+    opacity: 100%;
+}
+
+.harshitab:hover > .iconstore2
+{
+    opacity: 100%;
+}
+
+.harshpreets:hover > .iconstore3
+{
+    opacity: 100%;
+}
+
+
+

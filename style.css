@@ -337,5 +337,26 @@ a
     opacity: 100%;
 }
 
+.contactuspage
+{
+    border: 5px solid aqua;
+    height: 680px;
+}
+
+.contactname
+{
+    color: white;
+    text-align: center;
+    font-size: 4vw;
+    font-weight: 600;
+}
+
+.topicon
+{
+    color: white;
+    font-weight: 900;
+    position: fixed;
+    border: 5px solid white;
+}
 
 

@@ -217,36 +217,38 @@ a
     .image1
     {
         height:25%;
-        top: 160px;
     }
     
     .image2
     {
         height: 25%;
-        top: 160px;
     }
 
     .image3
     {
         height:25%;
-        top: 320px;
     }
     
     .image4
     {
         height: 25%;
-        top: 320px;
     }
 
     .welcome
     {
-        width: 300px;
-        align-content: center;
-        height: 330px;
+        display: flex;
         position: absolute;
-        top: 60px;
-        left: 30px;
-        font-size: 60px;
+        top: 0px;
+        font-size: 70px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .welcomemessage{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
     }
 }
 
@@ -254,12 +256,14 @@ a
 {
     color: blue;
     text-align: center;
-    font-size: 2.5vw;
+    font-size: 4vw;
     text-shadow: 0 0 15px yellow;
 }
 
 .aboutsection
 {
+    display: flex;
+    justify-content: center;
     height: 680px;
     border: 5px solid lightseagreen;
 }
@@ -281,6 +285,11 @@ a
     top: 1100px;
     left: 150px;
     font-weight: 600;
+}
+
+.aboutuscontainer
+{
+    display: flex;
 }
 
 .iconstore1

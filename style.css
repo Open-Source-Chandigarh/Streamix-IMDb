@@ -259,10 +259,10 @@ a
 {
     color: white;
     display: flex;
-    gap: 500px;
+    gap: 400px;
     position: absolute;
     top: 1100px;
-    margin-left: 40px;
+    left: 130px;
     font-weight: 600;
 }
 

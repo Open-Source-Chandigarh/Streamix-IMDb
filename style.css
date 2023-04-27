@@ -191,6 +191,7 @@ a
     {
         margin-top: 70px;
         justify-content: center;
+        gap: 0px;
     }
 
     .home,.about

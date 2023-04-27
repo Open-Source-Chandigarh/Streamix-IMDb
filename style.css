@@ -91,6 +91,7 @@ a
     animation-name: example1;
     animation-duration: 5s;
     animation-iteration-count: infinite;
+    background-repeat: no-repeat;
 }
 
 .image2

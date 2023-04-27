@@ -2,6 +2,13 @@
     font-family: robo;
     src: url(./fonts/Roboto_Slab/static/RobotoSlab-Regular.ttf);
 }
+
+html
+
+{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Poppins';
 }
@@ -262,7 +269,7 @@ a
     gap: 400px;
     position: absolute;
     top: 1100px;
-    left: 130px;
+    left: 150px;
     font-weight: 600;
 }
 

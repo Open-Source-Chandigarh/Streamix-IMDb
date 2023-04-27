@@ -76,6 +76,7 @@ a
 .image
 {
     height: 300px;
+    width: 200%;
     background-image: url(Welcome.jpg);
     background-size: cover;
     z-index: -1;
@@ -83,11 +84,13 @@ a
     top: -305px;
     animation-name: example;
     animation-duration: 10s;
+    animation-iteration-count: infinite;
+    background-repeat: repeat-x;
 }
 
 @keyframes example {
-    0%   {background-color:red; left: -2000px;}
-    100%  {background-color:yellow; left: 0;}
+    0%   {background-color:red; left: -100%;}
+    100%  {background-color:yellow; left: 100%;}
 }
 
 @media (max-width:768px)

@@ -28,7 +28,10 @@ body{
 a
 {
     text-decoration: none;
+    color: white;
+    font-weight: 600;
 }
+
 .logo
 {
     display: flex;
@@ -38,6 +41,9 @@ a
 {
     display: flex;
     padding: 15px;
+    text-shadow: 0 0 15px yellow;
+    font-weight: 600;
+    gap: 50px;
 }
 
 .home,.about{
@@ -72,6 +78,8 @@ a
     font-family: 'Poppins';
     text-align: center;
     margin-top:140px;
+    font-weight: 700;
+    text-shadow: 0 0 15px #ff3131;
 }
 
 .welcomepage
@@ -82,8 +90,8 @@ a
 .image1
 {
     height: 150px;
-    width: 200%;
-    background-image: url(Welcome.jpg);
+    width: 100%;
+    background-image: url(Long1.png);
     background-size: cover;
     z-index: -1;
     position: absolute;
@@ -96,8 +104,8 @@ a
 .image2
 {
     height: 150px;
-    width: 200%;
-    background-image: url(Welcome.jpg);
+    width: 100%;
+    background-image: url(Long1.png);
     background-size: cover;
     z-index: -1;
     position: absolute;
@@ -110,8 +118,8 @@ a
 .image3
 {
     height: 150px;
-    width: 200%;
-    background-image: url(Welcome.jpg);
+    width: 100%;
+    background-image: url(Long1.png);
     background-size: cover;
     z-index: -1;
     position: absolute;
@@ -124,8 +132,8 @@ a
 .image4
 {
     height: 150px;
-    width: 200%;
-    background-image: url(Welcome.jpg);
+    width: 100%;
+    background-image: url(Long1.png);
     background-size: cover;
     z-index: -1;
     position: absolute;

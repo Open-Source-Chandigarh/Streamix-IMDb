@@ -94,6 +94,15 @@ a
     height: 300px;
 }
 
+.allimage
+{
+    height: 600px;
+    position: absolute;
+    top: 0px;
+    width: 99%;
+    overflow: hidden;
+}
+
 .image1
 {
     height: 150px;

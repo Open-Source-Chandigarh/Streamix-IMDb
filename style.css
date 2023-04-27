@@ -99,6 +99,7 @@ a
     height: 600px;
     position: absolute;
     top: 0px;
+    z-index: -1;
     width: 99%;
     overflow: hidden;
 }

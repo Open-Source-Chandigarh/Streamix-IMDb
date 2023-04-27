@@ -180,7 +180,7 @@ a
     100%  {background-color:yellow; left: -100%;}
 }
 
-@media (max-width:768px)
+@media screen and (max-width:768px)
 {
     .top
     {
@@ -250,8 +250,55 @@ a
         align-items: center;
         margin-top: 30px;
     }
-}
 
+    .nameaboutcontainer{
+        flex-direction: column;
+    }
+
+    .harshits
+    {
+        margin-top: -250px;
+    }
+    .harshitab
+    {
+        margin-top: -150px;
+    }
+
+    .harshpreets
+    {
+        margin-top: -150px;
+    }
+
+    .aboutsection
+    {
+        height: 1600px;
+    }
+
+    .harshits .iconstore1
+    {
+        flex-direction: row;
+        margin-left: 64px;
+    }
+
+    .harshitab .iconstore2
+    {
+        flex-direction: row;
+        margin-left: 64px;
+    }
+
+    .harshpreets .iconstore3
+    {
+        flex-direction: row;
+        margin-left: 64px;
+    }
+
+    .aboutsection .aboutline{
+        font-size: 60px;
+    }
+
+    
+
+}
 .welcomemessage
 {
     color: blue;
@@ -262,9 +309,10 @@ a
 
 .aboutsection
 {
-    display: flex;
+    display: grid;
     justify-content: center;
-    height: 680px;
+    align-items: center;
+    height: auto-fit;
     border: 5px solid lightseagreen;
 }
 
@@ -280,11 +328,10 @@ a
 {
     color: white;
     display: flex;
-    gap: 400px;
-    position: absolute;
-    top: 1100px;
-    left: 150px;
+    gap: 200px;
+    margin-top: 100px;
     font-weight: 600;
+    margin-bottom: 30px;
 }
 
 .aboutuscontainer
@@ -297,10 +344,11 @@ a
     display: flex;
     width: max-content;
     flex-direction: column;
+    justify-items: center;
     gap: 20px;
     opacity: 0%;
     margin-top: 10px;
-    margin-left: 20px;
+    margin-left: 90px;
 }
 
 .iconstore2
@@ -311,7 +359,7 @@ a
     gap: 20px;
     opacity: 0%;
     margin-top: 10px;
-    margin-left: 25px;
+    margin-left: 100px;
 }
 
 .iconstore3
@@ -322,7 +370,7 @@ a
     gap: 20px;
     opacity: 0%;
     margin-top: 10px;
-    margin-left: 30px;  
+    margin-left: 100px;
 }
 
 .instac
@@ -339,6 +387,57 @@ a
     height: 50px;
     background-image: url(linkedin.png);
     background-size: cover;
+}
+
+.harshitsingla
+{
+    background-image: url(linkedin.png);
+    border-radius: 50%;
+    overflow: hidden;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 20px;
+    background-size:cover;
+}
+
+.harshits{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.harshitabansal
+{
+    background-image: url(linkedin.png);
+    border-radius: 50%;
+    overflow: hidden;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 20px;
+    background-size:cover;
+}
+
+.harshitab{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.harshpreetsingh
+{
+    background-image: url(linkedin.png);
+    border-radius: 50%;
+    overflow: hidden;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 20px;
+    background-size:cover;
+}
+
+.harshpreets{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .harshits:hover > .iconstore1

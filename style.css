@@ -2,7 +2,9 @@
     font-family: robo;
     src: url(./fonts/Roboto_Slab/static/RobotoSlab-Regular.ttf);
 }
-
+body{
+    font-family: 'Poppins';
+}
 body{
     background: black;
 }
@@ -44,7 +46,7 @@ a
 
 .home,.about,.contact{
     font-size: 25px;
-    font-family: mont;
+    font-family: 'Poppins';
     color: white;
 }
 
@@ -56,16 +58,20 @@ a
 }
 
 .streamixx{
-    font-size: 40px;
-    font-family: play;
+    font-size: 30px;
+    font-family: 'Poppins';
     color: white;
     display: flex;
+    letter-spacing: 5px;
 }
 
 .welcome{
     color: white;
     height: 300px;
-    font-size: 10.5vw;
+    font-size: 8vw;
+    font-family: 'Poppins';
+    text-align: center;
+    margin-top:140px;
 }
 
 .welcomepage

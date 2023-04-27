@@ -246,10 +246,7 @@ a
     }
 
     .welcomemessage{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 30px;
+        font-size: 50%;
     }
 
     .nameaboutcontainer{
@@ -302,9 +299,10 @@ a
 }
 .welcomemessage
 {
+    display: flex;
+    justify-content: center;
     color: blue;
-    text-align: center;
-    font-size: 4vw;
+    font-size: 40px;
     text-shadow: 0 0 15px yellow;
 }
 

@@ -68,7 +68,7 @@ a
 .welcome{
     color: white;
     height: 300px;
-    font-size: 8vw;
+    font-size: 120px;
     font-family: 'Poppins';
     text-align: center;
     margin-top:140px;
@@ -81,13 +81,13 @@ a
 
 .image1
 {
-    height: 300px;
+    height: 150px;
     width: 200%;
     background-image: url(Welcome.jpg);
     background-size: cover;
     z-index: -1;
-    position: relative;
-    top: -305px;
+    position: absolute;
+    top: 150px;
     animation-name: example1;
     animation-duration: 5s;
     animation-iteration-count: infinite;
@@ -95,14 +95,42 @@ a
 
 .image2
 {
-    height: 300px;
+    height: 150px;
     width: 200%;
     background-image: url(Welcome.jpg);
     background-size: cover;
     z-index: -1;
-    position: relative;
-    top: -605px;
+    position: absolute;
+    top: 150px;
     animation-name: example2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.image3
+{
+    height: 150px;
+    width: 200%;
+    background-image: url(Welcome.jpg);
+    background-size: cover;
+    z-index: -1;
+    position: absolute;
+    top: 300px;
+    animation-name: example3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.image4
+{
+    height: 150px;
+    width: 200%;
+    background-image: url(Welcome.jpg);
+    background-size: cover;
+    z-index: -1;
+    position: absolute;
+    top: 300px;
+    animation-name: example4;
     animation-duration: 5s;
     animation-iteration-count: infinite;
 }
@@ -115,6 +143,16 @@ a
 @keyframes example2 {
     0%   {background-color:red; left: 0%;}
     100%  {background-color:yellow; left: 100%;}
+}
+
+@keyframes example3 {
+    0%   {background-color:red; left: 100%;}
+    100%  {background-color:yellow; left: 0%;}
+}
+
+@keyframes example4 {
+    0%   {background-color:red; left: 0%;}
+    100%  {background-color:yellow; left: -100%;}
 }
 
 @media (max-width:768px)
@@ -144,5 +182,45 @@ a
     .streamixx
     {
         justify-content: center;
+    }
+
+    .welcomepage
+    {
+        align-content: center;
+    }
+
+    .image1
+    {
+        height:25%;
+        top: 160px;
+    }
+    
+    .image2
+    {
+        height: 25%;
+        top: 160px;
+    }
+
+    .image3
+    {
+        height:25%;
+        top: 326px;
+    }
+    
+    .image4
+    {
+        height: 25%;
+        top: 326px;
+    }
+
+    .welcome
+    {
+        width: 300px;
+        align-content: center;
+        height: 330px;
+        position: absolute;
+        top: 60px;
+        left: 60px;
+        font-size: 60px;
     }
 }

@@ -448,6 +448,12 @@ label
     font-size: 20px;
 }
 
+.action-genre
+{
+    height: 500px;
+    border: 2px solid yellow;
+}
+
 @media screen and (max-width:768px)
 {
     .top

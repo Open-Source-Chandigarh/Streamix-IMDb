@@ -161,6 +161,15 @@ a
     animation-iteration-count: infinite;
 }
 
+.welcomemessage
+{
+    display: flex;
+    justify-content: center;
+    color: blue;
+    font-size: 40px;
+    text-shadow: 0 0 15px yellow;
+}
+
 @keyframes example1 {
     0%   {background-color:red; left: -100%;}
     100%  {background-color:yellow; left: 0%;}
@@ -179,132 +188,6 @@ a
 @keyframes example4 {
     0%   {background-color:red; left: 0%;}
     100%  {background-color:yellow; left: -100%;}
-}
-
-@media screen and (max-width:768px)
-{
-    .top
-    {
-        flex-direction: column;
-    }
-
-    .navbar
-    {
-        margin-top: 70px;
-        justify-content: center;
-        gap: 0px;
-    }
-
-    .home,.about
-    {
-        margin-bottom: 20px;
-        margin-right: 40px;
-    }
-
-    .home,.about,.contact
-    {
-        margin-left: -10px;
-    }
-
-    .streamixx
-    {
-        justify-content: center;
-    }
-
-    .welcomepage
-    {
-        align-content: center;
-    }
-
-    .image1
-    {
-        height:25%;
-    }
-    
-    .image2
-    {
-        height: 25%;
-    }
-
-    .image3
-    {
-        height:25%;
-    }
-    
-    .image4
-    {
-        height: 25%;
-    }
-
-    .welcome
-    {
-        display: flex;
-        position: absolute;
-        top: 0px;
-        font-size: 70px;
-        text-align: center;
-        align-items: center;
-    }
-
-    .welcomemessage{
-        font-size: 50%;
-    }
-
-    .nameaboutcontainer{
-        flex-direction: column;
-    }
-
-    .harshits
-    {
-        margin-top: -250px;
-    }
-    .harshitab
-    {
-        margin-top: -150px;
-    }
-
-    .harshpreets
-    {
-        margin-top: -150px;
-    }
-
-    .aboutsection
-    {
-        height: 1600px;
-    }
-
-    .harshits .iconstore1
-    {
-        flex-direction: row;
-        margin-left: 64px;
-    }
-
-    .harshitab .iconstore2
-    {
-        flex-direction: row;
-        margin-left: 64px;
-    }
-
-    .harshpreets .iconstore3
-    {
-        flex-direction: row;
-        margin-left: 64px;
-    }
-
-    .aboutsection .aboutline{
-        font-size: 60px;
-    }
-
-    
-
-}
-.welcomemessage
-{
-    display: flex;
-    justify-content: center;
-    color: blue;
-    font-size: 40px;
-    text-shadow: 0 0 15px yellow;
 }
 
 .aboutsection
@@ -391,7 +274,7 @@ a
 
 .harshitsingla
 {
-    background-image: url(linkedin.png);
+    background-image: url(./1676978770134.jpeg);
     border-radius: 50%;
     overflow: hidden;
     width: 250px;
@@ -408,7 +291,7 @@ a
 
 .harshitabansal
 {
-    background-image: url(linkedin.png);
+    background-image: url(./1682593268001.jpeg);
     border-radius: 50%;
     overflow: hidden;
     width: 250px;
@@ -425,7 +308,7 @@ a
 
 .harshpreetsingh
 {
-    background-image: url(linkedin.png);
+    background-image: url(./1677823768660.jpeg);
     border-radius: 50%;
     overflow: hidden;
     width: 250px;
@@ -565,6 +448,125 @@ label
     font-size: 20px;
 }
 
+@media screen and (max-width:768px)
+{
+    .top
+    {
+        flex-direction: column;
+    }
+
+    .navbar
+    {
+        margin-top: 70px;
+        justify-content: center;
+        gap: 0px;
+    }
+
+    .home,.about
+    {
+        margin-bottom: 20px;
+        margin-right: 40px;
+    }
+
+    .home,.about,.contact
+    {
+        margin-left: -10px;
+    }
+
+    .streamixx
+    {
+        justify-content: center;
+    }
+
+    .welcomepage
+    {
+        align-content: center;
+    }
+
+    .image1
+    {
+        height:25%;
+    }
+    
+    .image2
+    {
+        height: 25%;
+    }
+
+    .image3
+    {
+        height:25%;
+    }
+    
+    .image4
+    {
+        height: 25%;
+    }
+
+    .welcome
+    {
+        display: flex;
+        position: absolute;
+        top: 0px;
+        font-size: 70px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .welcomemessage{
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .nameaboutcontainer{
+        flex-direction: column;
+    }
+
+    .harshits
+    {
+        margin-top: -250px;
+    }
+    .harshitab
+    {
+        margin-top: -150px;
+    }
+
+    .harshpreets
+    {
+        margin-top: -150px;
+    }
+
+    .aboutsection
+    {
+        height: 1600px;
+    }
+
+    .harshits .iconstore1
+    {
+        flex-direction: row;
+        margin-left: 64px;
+    }
+
+    .harshitab .iconstore2
+    {
+        flex-direction: row;
+        margin-left: 64px;
+    }
+
+    .harshpreets .iconstore3
+    {
+        flex-direction: row;
+        margin-left: 64px;
+    }
+
+    .aboutsection .aboutline{
+        font-size: 60px;
+    }
+
+
+    
+
+}
 
 
 

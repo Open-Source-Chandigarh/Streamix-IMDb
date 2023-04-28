@@ -7,6 +7,7 @@ html
 
 {
     scroll-behavior: smooth;
+    color: white;
 }
 
 body{
@@ -457,7 +458,7 @@ a
 .contactuspage
 {
     border: 5px solid aqua;
-    height: 680px;
+    height: 700px;
 }
 
 .contactname
@@ -466,6 +467,7 @@ a
     text-align: center;
     font-size: 4vw;
     font-weight: 600;
+    margin-bottom: 50px;
 }
 
 .topicon
@@ -481,5 +483,88 @@ a
     height: 70px;
     font-weight: 900;
 }
+
+label
+{
+    margin-left: 20px;
+    display: block;
+}
+
+.feedimage
+{
+    display: flex;
+    background-image: url(Feedback.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 540px;
+    height: 540px;
+}
+
+.contactuscontainer
+{
+    display: flex;
+    gap: 150px;
+    margin-left: 30px;
+
+}
+
+.formitem
+{
+    font-size: 2vw;
+}
+
+.inputbox
+{
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 30px;
+}
+
+
+.name
+{
+    display: flex;
+    margin-top: 20px;
+}
+
+.submit-button
+{
+    width: 100px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-weight: 700;
+    font-size: 1vw;
+    background-color: yellow;
+    border: 2px solid red;
+}
+
+.email-class
+{
+    margin-top: 30px;
+}
+
+#em
+{
+    width: 628px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.message{
+    margin-top: 30px;
+}
+
+#mes
+{
+    width: 628px;
+    height: 120px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+
 
 

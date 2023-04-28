@@ -470,10 +470,16 @@ a
 
 .topicon
 {
+    background-image: url(OIP.png);
+    background-size: cover;
     color: white;
-    font-weight: 900;
     position: fixed;
-    border: 5px solid white;
+    z-index: 1;
+    right: 50px;
+    bottom: 50px;
+    width: 70px;
+    height: 70px;
+    font-weight: 900;
 }
 
 

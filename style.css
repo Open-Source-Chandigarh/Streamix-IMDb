@@ -428,7 +428,7 @@ label
     margin-top: 30px;
 }
 
-#em
+#emss
 {
     width: 628px;
     height: 30px;
@@ -446,6 +446,10 @@ label
     margin-left: 20px;
     margin-top: 10px;
     font-size: 20px;
+}
+
+.submit-button{
+    font-size: 15px;
 }
 
 .action-genre
@@ -475,12 +479,37 @@ label
     border: 2px solid white;
   }
 
+  .feedbackform
+  {
+    display: flex;
+    flex-direction: column;
+  }
+
 
 @media screen and (max-width:768px)
 {
     .top
     {
         flex-direction: column;
+    }
+
+    .name
+    {
+        flex-direction: column;
+    }
+
+    .last-name{
+        margin-top: 10px;
+    }
+
+    #emss
+    {
+        width: 92%
+    }
+
+    #mes
+    {
+        width: 93%;
     }
 
     .navbar

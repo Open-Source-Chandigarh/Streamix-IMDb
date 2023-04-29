@@ -428,7 +428,7 @@ label
     margin-top: 30px;
 }
 
-#emss
+#mailclas
 {
     width: 628px;
     height: 30px;
@@ -493,6 +493,16 @@ label
         flex-direction: column;
     }
 
+    .inputbox
+    {
+        width: 300px;
+    }
+
+    #mailclas,#mesa
+    {
+        width: 300px;
+    }
+
     .name
     {
         flex-direction: column;
@@ -500,21 +510,6 @@ label
 
     .last-name{
         margin-top: 10px;
-    }
-
-    .inputbox
-    {
-        margin-right: -40px;
-    }
-
-    #emss
-    {
-        width: 92%;
-    }
-
-    #mesa
-    {
-        width: 93%;
     }
 
     .navbar
@@ -567,11 +562,6 @@ label
     {
         height: 25%;
         width: 88%;
-    }
-
-    input
-    {
-        margin-right: 30px;
     }
 
     .welcome
@@ -633,10 +623,6 @@ label
     .aboutsection .aboutline{
         font-size: 60px;
     }
-
-
-    
-
 }
 
 

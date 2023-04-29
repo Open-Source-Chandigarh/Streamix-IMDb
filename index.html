@@ -52,11 +52,28 @@
 
     <br><br><br>
 
-    <div class="genres">
+    <div class="genres" id="video">
         <div class="action-genre">
-            <!-- <iframe width="900" height="500" src="https://www.youtube.com/embed/TcMBFSGVi1c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+            <video id="my-video" src="./1vi.mp4" muted></video>
+            <div class="genre-content">
+                <h1>ACTION</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum architecto officia excepturi doloremque quibusdam debitis repudiandae et cumque? Sapiente commodi facilis voluptatibus quisquam officiis, necessitatibus, temporibus ut deserunt alias est eum repudiandae? Veritatis sequi delectus architecto illo quaerat, autem repellat temporibus commodi labore incidunt explicabo tempore, iure optio voluptatum totam.</p>
+            </div>
         </div>
     </div>
+
+    <script>
+        const video = document.getElementById('my-video');
+
+video.addEventListener('mouseover', () => {
+  video.play();
+});
+
+video.addEventListener('mouseout', () => {
+  video.pause();
+});
+
+    </script>
     <br><br><br>
 
     <div class="aboutsection" id="abse">
@@ -123,9 +140,6 @@
 
             <div class="feedimage"></div>
         </div>
-
-        
-
     </div>
 
     <a href="#"><div class="topicon"></div></a>

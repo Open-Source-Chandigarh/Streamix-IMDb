@@ -451,8 +451,30 @@ label
 .action-genre
 {
     height: 500px;
+    overflow: hidden;
+    display: flex;
     border: 2px solid yellow;
 }
+
+.video-container video {
+    position: absolute;
+    left: 60px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .genre-content
+  {
+    display: block;
+    height: max-content;
+    align-self: center;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid white;
+  }
+
 
 @media screen and (max-width:768px)
 {

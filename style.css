@@ -439,7 +439,7 @@ label
     margin-top: 30px;
 }
 
-#mes
+#mesa
 {
     width: 628px;
     height: 120px;
@@ -502,12 +502,17 @@ label
         margin-top: 10px;
     }
 
-    #emss
+    .inputbox
     {
-        width: 92%
+        margin-right: 20px;
     }
 
-    #mes
+    #emss
+    {
+        width: 92%;
+    }
+
+    #mesa
     {
         width: 93%;
     }
@@ -562,6 +567,11 @@ label
     {
         height: 25%;
         width: 88%;
+    }
+
+    input
+    {
+        margin-right: 30px;
     }
 
     .welcome

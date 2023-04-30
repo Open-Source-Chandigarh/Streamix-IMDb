@@ -197,7 +197,6 @@ a
     justify-content: center;
     align-items: center;
     height: auto-fit;
-    border: 5px solid lightseagreen;
 }
 
 .aboutline
@@ -341,7 +340,6 @@ a
 
 .contactuspage
 {
-    border: 5px solid aqua;
     height: 700px;
 }
 
@@ -458,7 +456,6 @@ label
     height: 500px;
     overflow: hidden;
     display: flex;
-    border: 2px solid yellow;
 }
 
 .action-genre video {

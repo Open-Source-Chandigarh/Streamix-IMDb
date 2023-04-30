@@ -52,38 +52,89 @@
 
     <br><br><br>
 
-    <div class="genres" id="video">
+    <div class="genres">
         <div class="action-genre">
-            <video id="my-video" src="./1vi.mp4" muted></video>
+            <video id="my-video1" src="./1vi.mp4" muted></video>
             <div class="genre-content">
                 <h1>ACTION</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum architecto officia excepturi doloremque quibusdam debitis repudiandae et cumque? Sapiente commodi facilis voluptatibus quisquam officiis, necessitatibus, temporibus ut deserunt alias est eum repudiandae? Veritatis sequi delectus architecto illo quaerat, autem repellat temporibus commodi labore incidunt explicabo tempore, iure optio voluptatum totam.</p>
             </div>
         </div>
+
+        <br><br>
+
+        <div class="action-genre">
+            <div class="genre-content">
+                <h1>ACTION</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum architecto officia excepturi doloremque quibusdam debitis repudiandae et cumque? Sapiente commodi facilis voluptatibus quisquam officiis, necessitatibus, temporibus ut deserunt alias est eum repudiandae? Veritatis sequi delectus architecto illo quaerat, autem repellat temporibus commodi labore incidunt explicabo tempore, iure optio voluptatum totam.</p>
+            </div>
+            <video id="my-video2" src="./1vi.mp4" muted></video>
+        </div>
+
+        <br><br>
+
+        <div class="action-genre">
+            <video id="my-video3" src="./1vi.mp4" muted></video>
+            <div class="genre-content">
+                <h1>ACTION</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum architecto officia excepturi doloremque quibusdam debitis repudiandae et cumque? Sapiente commodi facilis voluptatibus quisquam officiis, necessitatibus, temporibus ut deserunt alias est eum repudiandae? Veritatis sequi delectus architecto illo quaerat, autem repellat temporibus commodi labore incidunt explicabo tempore, iure optio voluptatum totam.</p>
+            </div>
+        </div>
+
+        <br><br>
+
+        <div class="action-genre">
+            <div class="genre-content">
+                <h1>ACTION</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum architecto officia excepturi doloremque quibusdam debitis repudiandae et cumque? Sapiente commodi facilis voluptatibus quisquam officiis, necessitatibus, temporibus ut deserunt alias est eum repudiandae? Veritatis sequi delectus architecto illo quaerat, autem repellat temporibus commodi labore incidunt explicabo tempore, iure optio voluptatum totam.</p>
+            </div>
+            <video id="my-video4" src="./1vi.mp4" muted></video>
+        </div>
+
+        <br><br>
+
+        <div class="action-genre">
+            <video id="my-video5" src="./1vi.mp4" muted></video>
+            <div class="genre-content">
+                <h1>ACTION</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum architecto officia excepturi doloremque quibusdam debitis repudiandae et cumque? Sapiente commodi facilis voluptatibus quisquam officiis, necessitatibus, temporibus ut deserunt alias est eum repudiandae? Veritatis sequi delectus architecto illo quaerat, autem repellat temporibus commodi labore incidunt explicabo tempore, iure optio voluptatum totam.</p>
+            </div>
+        </div>
+
+        <br><br>
+
+        <div class="action-genre">
+            <div class="genre-content">
+                <h1>ACTION</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum architecto officia excepturi doloremque quibusdam debitis repudiandae et cumque? Sapiente commodi facilis voluptatibus quisquam officiis, necessitatibus, temporibus ut deserunt alias est eum repudiandae? Veritatis sequi delectus architecto illo quaerat, autem repellat temporibus commodi labore incidunt explicabo tempore, iure optio voluptatum totam.</p>
+            </div>
+            <video id="my-video6" src="./1vi.mp4" muted></video>
+        </div>
+
+        <br><br>
+
+        <div class="action-genre">
+            <video id="my-video7" src="./1vi.mp4" muted></video>
+            <div class="genre-content">
+                <h1>ACTION</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum architecto officia excepturi doloremque quibusdam debitis repudiandae et cumque? Sapiente commodi facilis voluptatibus quisquam officiis, necessitatibus, temporibus ut deserunt alias est eum repudiandae? Veritatis sequi delectus architecto illo quaerat, autem repellat temporibus commodi labore incidunt explicabo tempore, iure optio voluptatum totam.</p>
+            </div>
+        </div>
+
+        <br><br>
+
+        <div class="action-genre">
+            <div class="genre-content">
+                <h1>ACTION</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum architecto officia excepturi doloremque quibusdam debitis repudiandae et cumque? Sapiente commodi facilis voluptatibus quisquam officiis, necessitatibus, temporibus ut deserunt alias est eum repudiandae? Veritatis sequi delectus architecto illo quaerat, autem repellat temporibus commodi labore incidunt explicabo tempore, iure optio voluptatum totam.</p>
+            </div>
+            <video id="my-video8" src="./1vi.mp4" muted></video>
+        </div>
     </div>
 
-    <script>
-        const video = document.getElementById('my-video');
 
-        function playVideoWhenVisible() {
-        const videoRect = video.getBoundingClientRect();
-        const isVisible = (
-            videoRect.top >= 0 &&
-            videoRect.left >= 0 &&
-            videoRect.bottom <= window.innerHeight &&
-            videoRect.right <= window.innerWidth
-        );
-        if (isVisible) {
-            video.play();
-        } else {
-            video.pause();
-        }
-        }
+    <script src="script.js"></script>
 
-        window.addEventListener('scroll', playVideoWhenVisible);
-        window.addEventListener('resize', playVideoWhenVisible);
-
-    </script>
     <br><br><br>
 
     <div class="aboutsection" id="abse">

@@ -392,7 +392,7 @@ label
 
 .formitem
 {
-    font-size: 2vw;
+    font-size: 20px;
 }
 
 .inputbox
@@ -460,10 +460,21 @@ label
 
 .action-genre video {
     object-fit: cover;
-  }
+}
 
-  .genre-content
-  {
+.action-genre1
+{
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+}
+
+.action-genre1 video {
+    object-fit: cover;
+}
+
+.genre-content
+{
     display: block;
     height: max-content;
     align-self: center;
@@ -471,13 +482,14 @@ label
     margin-left: 10px;
     margin-right: 10px;
     border: 2px solid white;
-  }
+}
 
-  .feedbackform
-  {
+
+.feedbackform
+{
     display: flex;
     flex-direction: column;
-  }
+}
 
 h1
 {
@@ -508,14 +520,44 @@ p
         width: 250px;
     }
 
+    h1
+    {
+        font-size: 30px;
+    }
+
+    p
+    {
+        font-size: 15px;
+    }
+
+    .contactname
+    {
+        font-size: 50px;
+    }
+
     .action-genre video {
         object-fit: cover;
-      }
+    }
 
-      .action-genre
-      {
+    .action-genre1 video {
+        object-fit: cover;
+    }
+
+    .action-genre
+    {
         flex-direction: column;
-      }
+        border: 2px solid yellow;
+        height: max-content;
+    }
+
+    .action-genre1
+    {
+        flex-direction: column-reverse;
+        border: 2px solid yellow;
+        height: max-content;
+    }
+
+    
 
 
     .name

@@ -4,7 +4,6 @@
 }
 
 html
-
 {
     scroll-behavior: smooth;
     color: white;
@@ -16,7 +15,6 @@ body{
 body{
     background: black;
 }
-
 
 @font-face{
     font-family: play;
@@ -503,8 +501,7 @@ p
 }
 
 
-@media screen and (max-width:768px)
-{
+@media screen and (max-width:768px){
     .top
     {
         flex-direction: column;
@@ -681,6 +678,3 @@ p
         font-size: 60px;
     }
 }
-
-
-

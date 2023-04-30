@@ -17,6 +17,7 @@ body{
     background: black;
 }
 
+
 @font-face{
     font-family: play;
     src: url(./fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf);
@@ -480,6 +481,17 @@ label
     display: flex;
     flex-direction: column;
   }
+
+h1
+{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+p
+{
+    font-size: 20px;
+}
 
 
 @media screen and (max-width:768px)

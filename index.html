@@ -65,13 +65,23 @@
     <script>
         const video = document.getElementById('my-video');
 
-video.addEventListener('mouseover', () => {
-  video.play();
-});
+        function playVideoWhenVisible() {
+        const videoRect = video.getBoundingClientRect();
+        const isVisible = (
+            videoRect.top >= 0 &&
+            videoRect.left >= 0 &&
+            videoRect.bottom <= window.innerHeight &&
+            videoRect.right <= window.innerWidth
+        );
+        if (isVisible) {
+            video.play();
+        } else {
+            video.pause();
+        }
+        }
 
-video.addEventListener('mouseout', () => {
-  video.pause();
-});
+        window.addEventListener('scroll', playVideoWhenVisible);
+        window.addEventListener('resize', playVideoWhenVisible);
 
     </script>
     <br><br><br>

@@ -169,6 +169,15 @@ a
     text-shadow: 0 0 15px yellow;
 }
 
+.buttons{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:50px;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
 @keyframes example1 {
     0%   {background-color:red; left: -100%;}
     100%  {background-color:yellow; left: 0%;}
@@ -499,6 +508,47 @@ p
 {
     font-size: 20px;
 }
+
+#rdnpick{
+    display: inline-block;
+    font-family: 'Poppins';
+    border-radius: 4px;
+    background-color: #ff3131;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 17px;
+    padding: 16px;
+    width: 250px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#rdnpick span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+#rdnpick span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -15px;
+    transition: 0.5s;
+   }
+   
+#rdnpick:hover span {
+    padding-right: 15px;
+   }
+   
+#rdnpick:hover span:after {
+    opacity: 1;
+    right: 0;
+   }
 
 
 @media screen and (max-width:768px){

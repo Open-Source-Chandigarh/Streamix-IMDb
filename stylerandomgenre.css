@@ -172,3 +172,16 @@ a
     text-align: center;
     border: 5px solid white;
 }
+
+.another
+{
+    display: none;
+    margin-top: 150px;
+}
+
+.got-this-movie
+{
+    font-size: 150px;
+    text-align: center;
+    border: 5px solid white;
+}

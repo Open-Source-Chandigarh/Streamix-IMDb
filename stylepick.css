@@ -77,3 +77,26 @@ a
     display: flex;
     letter-spacing: 5px;
 }
+
+
+.moviecontainer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.heading
+{
+    text-align: center;
+    font-size: 100px;
+}
+
+
+.genreselected
+{
+    font-size: 150px;
+    text-align: center;
+    border: 5px solid white;
+}

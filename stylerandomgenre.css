@@ -1,0 +1,174 @@
+@font-face{
+    font-family: robo;
+    src: url(./fonts/Roboto_Slab/static/RobotoSlab-Regular.ttf);
+}
+
+html
+{
+    scroll-behavior: smooth;
+    color: white;
+}
+
+body{
+    font-family: 'Poppins';
+}
+body{
+    background: black;
+}
+
+@font-face{
+    font-family: play;
+    src: url(./fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family: mont;
+    src: url(./fonts/Montserrat/static/Montserrat-Regular.ttf);
+}
+
+.logosite{
+    width: 40px;
+    margin-right: 5px;
+    display: flex;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.logo
+{
+    display: flex;
+}
+
+.navbar
+{
+    display: flex;
+    padding: 15px;
+    text-shadow: 0 0 15px yellow;
+    font-weight: 600;
+    gap: 50px;
+}
+
+.home,.about{
+    margin-right: 20px;
+}
+
+.home,.about,.contact{
+    font-size: 25px;
+    font-family: 'Poppins';
+    color: white;
+}
+
+.top
+{
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+}
+
+.streamixx{
+    font-size: 30px;
+    font-family: 'Poppins';
+    color: white;
+    display: flex;
+    letter-spacing: 5px;
+}
+
+#rdngenrepick{
+    display: inline-block;
+    font-family: 'Poppins';
+    border-radius: 4px;
+    background-color: #ff3131;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 17px;
+    padding: 16px;
+    width: 250px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#rdnfenrepick{
+    display: inline-block;
+    font-family: 'Poppins';
+    border-radius: 4px;
+    background-color: #ff3131;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 17px;
+    padding: 16px;
+    width: 250px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#rdngenrepick span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+#rdngenrepick span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -15px;
+    transition: 0.5s;
+   }
+   
+#rdngenrepick:hover span {
+    padding-right: 15px;
+   }
+
+   
+#rdngenrepick:hover span:after {
+    opacity: 1;
+    right: 0;
+   }
+
+
+.moviecontainer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.heading
+{
+    text-align: center;
+    font-size: 100px;
+}
+
+.buttons-genre
+{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.buttons
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.genreselected
+{
+    font-size: 150px;
+    text-align: center;
+    border: 5px solid white;
+}

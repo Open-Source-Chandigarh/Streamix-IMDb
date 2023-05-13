@@ -39,14 +39,14 @@ let getselected;
 
 switch(rdnind)
 {
-    case 0: genremovie.textContent = action[Math.floor(Math.random()*action.length-1)];
-    case 1: genremovie.textContent = comedy[Math.floor(Math.random()*comedy.length-1)];
-    case 2: genremovie.textContent = drama[Math.floor(Math.random()*drama.length-1)];
-    case 3: genremovie.textContent = romance[Math.floor(Math.random()*romance.length-1)];
-    case 4: genremovie.textContent = crime[Math.floor(Math.random()*crime.length-1)];
-    case 5: genremovie.textContent = thriller[Math.floor(Math.random()*thriller.length-1)];
-    case 6: genremovie.textContent = horror[Math.floor(Math.random()*horror.length-1)];
-    case 7: genremovie.textContent = scifi[Math.floor(Math.random()*scifi.length-1)];
+    case 0: {genremovie.textContent = action[Math.floor(Math.random()*action.length-1)];break;}
+    case 1: {genremovie.textContent = comedy[Math.floor(Math.random()*comedy.length-1)];break;}
+    case 2: {genremovie.textContent = drama[Math.floor(Math.random()*drama.length-1)];break;}
+    case 3: {genremovie.textContent = romance[Math.floor(Math.random()*romance.length-1)];break;}
+    case 4: {genremovie.textContent = crime[Math.floor(Math.random()*crime.length-1)];break;}
+    case 5: {genremovie.textContent = thriller[Math.floor(Math.random()*thriller.length-1)];break;}
+    case 6: {genremovie.textContent = horror[Math.floor(Math.random()*horror.length-1)];break;}
+    case 7: {genremovie.textContent = scifi[Math.floor(Math.random()*scifi.length-1)];break;}
 }
 
 }

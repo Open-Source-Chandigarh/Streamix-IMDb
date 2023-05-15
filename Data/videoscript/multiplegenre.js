@@ -46,6 +46,8 @@ mergeButton.addEventListener('click', function() {
     return accumulator.filter(element => currentArray.includes(element));
   });
 
+  mergedArray = Set(mergedArray);
+
   for (let i = 0;i<mergedArray.length;i++)
   {
     const li = document.createElement("li");

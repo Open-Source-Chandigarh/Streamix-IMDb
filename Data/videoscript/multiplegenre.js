@@ -1,6 +1,6 @@
 const buttonContainer = document.getElementById('button-container');
 const mergeButton = document.getElementById('merge-button');
-const result = document.querySelector(".result")
+const result = document.querySelector("ol")
 const show = document.querySelector(".show")
 const arrays = [["The 355", "All Quiet on the Western Front", "Ambulance", "Avatar: The Way of Water", "The Batman", "Beast", "Black Adam", "Black Panther: Wakanda Forever", "Brahmāstra", "Bullet Train", "Catwoman: Hunted", "A Day to Die", "Day Shift", "Doctor Strange in the Multiverse of Madness", "The Gray Man", "Jurassic World Dominion", "The Man from Toronto", "Morbius", "Samaritan", "Secret Headquarters", "Sisu", "Sonic the Hedgehog 2", "Thor: Love and Thunder", "Top Gun: Maverick", "Uncharted", "Violent Night", "Kung fu Ghost", "Sonic HedgeHog2", "The Man from Toronto", "the Out-Lows", "Thor: Love and Thunder", "Too Cool to Kill", "Tower of Strength", "The Adam Project", "Jurassic World Dominion", "Lightyear", "Moonfall", "Sonic the Hedgehog 2", "Strange World", "Warriors of Future", "Ambulance", "Beast", "Bheemla Nayak", "Bullet Train", "A Day to Die", "Memory", "Monkey Man", "Mr. Harrigan's Phone", "Prey", "The 355", "The Batman", "The Contractor", "The Expendables 4", "The Gray Man", "Valimai", "Vikram", "Prey", "Qodrat", "The Retaliators", "A Day to Die", "Oppanda", "The Batman"],
 
@@ -45,8 +45,6 @@ mergeButton.addEventListener('click', function() {
   const mergedArray = selectedArrays.reduce((accumulator, currentArray) => {
     return accumulator.filter(element => currentArray.includes(element));
   });
-
-  mergedArray = Set(mergedArray);
 
   for (let i = 0;i<mergedArray.length;i++)
   {

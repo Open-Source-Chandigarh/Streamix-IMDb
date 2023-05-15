@@ -56,10 +56,4 @@ mergeButton.addEventListener('click', function() {
   }
 });
 
-function nowdothis()
-{
-  let j = Math.floor(Math.random()*mergedArray.length);
-  show.textContent = mergedArray[j];
-}
-
 

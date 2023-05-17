@@ -156,11 +156,12 @@ button.pressed {
 
   #button-container{
     flex-direction: column;
-    justify-content: center;
+    border: 2px solid white;
   }
 
   button{
     margin-bottom: 25px;
+    margin: auto;
   }
 
   .heading{
@@ -173,6 +174,7 @@ button.pressed {
   }
 
   #merge-button{
+    border: 2px solid white;
     margin:0;
   }
 

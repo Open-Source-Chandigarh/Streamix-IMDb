@@ -143,6 +143,7 @@ button.pressed {
 #merge-button
 {
   border:2px solid white;
+  margin: 0;
 }
 
 .merge-button{

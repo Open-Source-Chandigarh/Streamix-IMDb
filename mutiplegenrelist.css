@@ -81,6 +81,7 @@ a
 .headline{
   display: flex;
   justify-content: center;
+  margin-top: 50px;
   border: 5px solid yellow;
   text-shadow: 0 0 15px greenyellow;
 }
@@ -160,6 +161,10 @@ button.pressed {
   #button-container{
     flex-direction: column;
     gap: 30px;
+  }
+
+  .headline{
+    margin-top: 20px;
   }
 
   button{

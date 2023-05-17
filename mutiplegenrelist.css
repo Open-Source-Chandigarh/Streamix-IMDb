@@ -81,6 +81,8 @@ a
 .headline{
   display: flex;
   justify-content: center;
+  border: 5px solid yellow;
+  text-shadow: 0 0 15px greenyellow;
 }
 
 .moviecontainer
@@ -123,7 +125,6 @@ button:hover{
 
 button.pressed {
   transform: translateY(20px) translateX(10px);
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
   box-shadow: 0 0 10px rgb(204, 255, 0);
 }
 

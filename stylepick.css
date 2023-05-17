@@ -91,12 +91,58 @@ a
 {
     text-align: center;
     font-size: 100px;
+    text-shadow: 0 0 15px rgb(255, 3, 255);
 }
 
 
 .genreselected
 {
+    text-shadow: 0 0 15px yellow;
     font-size: 150px;
     text-align: center;
-    border: 5px solid white;
+    border: 2px solid white;
 }
+
+@media screen and (max-width:768px) {
+
+    .heading{
+      font-size: 55px;
+    }
+  
+    .top{
+      flex-direction: column;
+      margin-top: 30px;
+    }
+  
+    .navbar
+    {
+        margin-top: 20px;
+        justify-content: center;
+        gap: 0px;
+    }
+  
+    .home,.about
+    {
+        margin-bottom: 20px;
+        margin-right: 40px;
+    }
+  
+    .home,.about,.contact
+    {
+        margin-left: -10px;
+    }
+  
+    .streamixx
+    {
+        justify-content: center;
+    }
+
+    .genreselected{
+        font-size: 70px;
+    }
+
+    .moviecontainer{
+        margin-top: 10px;
+    }
+  }
+  

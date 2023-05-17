@@ -97,6 +97,7 @@ a
 
 .genreselected
 {
+    display: flex;
     text-shadow: 0 0 15px yellow;
     font-size: 150px;
     text-align: center;
@@ -138,7 +139,7 @@ a
     }
 
     .genreselected{
-        font-size: 70px;
+        font-size: 60px;
     }
 
     .moviecontainer{

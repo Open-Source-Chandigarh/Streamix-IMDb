@@ -156,6 +156,7 @@ button.pressed {
 
   #button-container{
     flex-direction: column;
+    gap: 30px;
     border: 2px solid white;
   }
 

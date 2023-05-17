@@ -148,6 +148,8 @@ a
 
 .heading
 {
+    font-weight: 600;
+    text-shadow: 0 0 10px yellow;
     text-align: center;
     font-size: 100px;
 }
@@ -169,20 +171,90 @@ a
 
 .genreselected
 {
+    text-shadow: 0 0 10px rgb(237, 0, 186);
     font-size: 150px;
     text-align: center;
-    border: 5px solid white;
+    border: 2px solid white;
 }
 
 .another
 {
-    display: none;
     margin-top: 150px;
 }
 
 .got-this-movie
 {
-    font-size: 150px;
+    margin-top: 20px;
+    text-shadow: 0 0 15px aquamarine;
+    font-size: 70px;
     text-align: center;
-    border: 5px solid white;
+    border: 2px solid white;
 }
+
+
+@media screen and (max-width:768px) {
+
+    #button-container{
+      flex-direction: column;
+      gap: 30px;
+    }
+  
+    button{
+      margin-bottom: 25px;
+      margin: auto;
+    }
+  
+    .heading{
+      font-size: 55px;
+    }
+  
+    .top{
+      flex-direction: column;
+      margin-top: 30px;
+    }
+  
+    #merge-button{
+      border: 2px solid white;
+      margin:0;
+    }
+  
+    .navbar
+    {
+        margin-top: 20px;
+        justify-content: center;
+        gap: 0px;
+    }
+  
+    .home,.about
+    {
+        margin-bottom: 20px;
+        margin-right: 40px;
+    }
+  
+    .home,.about,.contact
+    {
+        margin-left: -10px;
+    }
+  
+    .streamixx
+    {
+        justify-content: center;
+    }
+
+    .another {
+        margin-top: 40px;
+    }
+
+    .got-this-movie{
+        font-size: 40px;
+    }
+
+    .genreselected{
+        font-size: 100px;
+    }
+
+    .moviecontainer{
+        margin-top: 10px;
+    }
+  }
+  

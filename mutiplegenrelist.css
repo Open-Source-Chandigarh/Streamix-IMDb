@@ -177,4 +177,27 @@ button.pressed {
   #merge-button{
     margin:0;
   }
+
+  .navbar
+  {
+      margin-top: 70px;
+      justify-content: center;
+      gap: 0px;
+  }
+
+  .home,.about
+  {
+      margin-bottom: 20px;
+      margin-right: 40px;
+  }
+
+  .home,.about,.contact
+  {
+      margin-left: -10px;
+  }
+
+  .streamixx
+  {
+      justify-content: center;
+  }
 }

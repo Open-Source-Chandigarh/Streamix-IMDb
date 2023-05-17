@@ -164,7 +164,7 @@ a
 {
     display: flex;
     justify-content: center;
-    color: blue;
+    color: rgb(0, 255, 251);
     font-size: 40px;
     text-shadow: 0 0 15px yellow;
 }
@@ -706,19 +706,14 @@ p
     .action-genre
     {
         flex-direction: column;
-        border: 2px solid yellow;
         height: max-content;
     }
 
     .action-genre1
     {
         flex-direction: column-reverse;
-        border: 2px solid yellow;
         height: max-content;
     }
-
-    
-
 
     .name
     {

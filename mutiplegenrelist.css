@@ -142,6 +142,7 @@ button.pressed {
 
 #merge-button
 {
+  background-color: aquamarine;
   border:2px solid white;
   margin: 0;
 }
@@ -157,7 +158,6 @@ button.pressed {
   #button-container{
     flex-direction: column;
     gap: 30px;
-    border: 2px solid white;
   }
 
   button{

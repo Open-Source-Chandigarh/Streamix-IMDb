@@ -521,6 +521,7 @@ label
     margin-left: 20px;
     font-weight: 700;
     font-size: 1vw;
+    color: black;
     background-color: yellow;
     border: 2px solid red;
 }
@@ -551,6 +552,7 @@ label
 }
 
 .submit-button{
+    color: black;
     font-size: 15px;
 }
 

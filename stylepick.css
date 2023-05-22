@@ -89,6 +89,7 @@ a
 
 .heading
 {
+    color: white;
     text-align: center;
     font-size: 100px;
     text-shadow: 0 0 15px rgb(255, 3, 255);
@@ -98,6 +99,7 @@ a
 .genreselected
 {
     display: flex;
+    color: white;
     justify-content: center;
     text-shadow: 0 0 15px yellow;
     font-size: 150px;

@@ -79,6 +79,7 @@ a
 }
 
 .headline{
+  color: white;
   display: flex;
   justify-content: center;
   margin-top: 50px;
@@ -96,6 +97,7 @@ a
 
 .heading
 {
+  color: white;
     text-align: center;
     font-size: 100px;
 }
@@ -103,9 +105,10 @@ a
 
 .genreselected
 {
-    font-size: 150px;
-    text-align: center;
-    border: 5px solid white;
+  color: white;
+  font-size: 150px;
+  text-align: center;
+  border: 5px solid white;
 }
 
 button {

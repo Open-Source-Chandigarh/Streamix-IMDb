@@ -148,6 +148,7 @@ a
 
 .heading
 {
+    color: white;
     font-weight: 600;
     text-shadow: 0 0 10px yellow;
     text-align: center;
@@ -171,6 +172,7 @@ a
 
 .genreselected
 {
+    color: white;
     text-shadow: 0 0 10px rgb(237, 0, 186);
     font-size: 150px;
     text-align: center;
@@ -185,6 +187,7 @@ a
 
 .got-this-movie
 {
+    color: white;
     margin-top: 20px;
     text-shadow: 0 0 15px aquamarine;
     font-size: 70px;

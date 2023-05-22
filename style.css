@@ -304,7 +304,7 @@ a
 
 .aboutline
 {
-    color: blue;
+    color: rgb(114, 215, 208);
     text-align: center;
     font-size: 5vw;
     font-weight: 800;
@@ -448,7 +448,7 @@ a
 
 .contactname
 {
-    color: white;
+    color: rgb(212, 72, 72);
     text-align: center;
     font-size: 4vw;
     font-weight: 600;

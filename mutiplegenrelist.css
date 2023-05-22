@@ -83,7 +83,7 @@ a
   display: flex;
   justify-content: center;
   margin-top: 50px;
-  border: 5px solid yellow;
+  border: 5px solid aquamarine;
   text-shadow: 0 0 15px greenyellow;
 }
 
@@ -98,8 +98,9 @@ a
 .heading
 {
   color: white;
-    text-align: center;
-    font-size: 100px;
+  text-align: center;
+  font-size: 100px;
+  border: 5px solid aqua;
 }
 
 
@@ -108,7 +109,6 @@ a
   color: white;
   font-size: 150px;
   text-align: center;
-  border: 5px solid white;
 }
 
 button {

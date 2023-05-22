@@ -100,11 +100,11 @@ a
 {
     display: flex;
     color: white;
-    justify-content: center;
     text-shadow: 0 0 15px yellow;
     font-size: 150px;
     text-align: center;
     border: 2px solid white;
+    justify-content: center;
 }
 
 @media screen and (max-width:768px) {

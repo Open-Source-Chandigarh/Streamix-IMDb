@@ -57,6 +57,8 @@ Happy coding and welcome to the Streamix IMDb community!
 
 
 ---
+Project By - Harshpreet Singh (https://github.com/harshpreet931) and Harshit Singla (https://github.com/harshit391)
 
 Maintained By - Sahil, Technical Head Open Source Chandigarh (https://github.com/Sa2003hil)
+
 

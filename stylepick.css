@@ -1,22 +1,22 @@
-@font-face{
+@font-face {
     font-family: robo;
     src: url(./fonts/Roboto_Slab/static/RobotoSlab-Regular.ttf);
 }
 
-html
-{
+html {
     scroll-behavior: smooth;
     color: white;
 }
 
-body{
+body {
     font-family: 'Poppins';
 }
-body{
+
+body {
     background: black;
 }
 
-@font-face{
+@font-face {
     font-family: play;
     src: url(./fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf);
 }
@@ -26,26 +26,23 @@ body{
     src: url(./fonts/Montserrat/static/Montserrat-Regular.ttf);
 }
 
-.logosite{
+.logosite {
     width: 40px;
     margin-right: 5px;
     display: flex;
 }
 
-a
-{
+a {
     text-decoration: none;
     color: white;
     font-weight: 600;
 }
 
-.logo
-{
+.logo {
     display: flex;
 }
 
-.navbar
-{
+.navbar {
     display: flex;
     padding: 15px;
     text-shadow: 0 0 15px yellow;
@@ -53,24 +50,26 @@ a
     gap: 50px;
 }
 
-.home,.about{
+.home,
+.about {
     margin-right: 20px;
 }
 
-.home,.about,.contact{
+.home,
+.about,
+.contact {
     font-size: 25px;
     font-family: 'Poppins';
     color: white;
 }
 
-.top
-{
+.top {
     display: flex;
     justify-content: center;
     margin-top: -50px;
 }
 
-.streamixx{
+.streamixx {
     font-size: 30px;
     font-family: 'Poppins';
     color: white;
@@ -79,16 +78,14 @@ a
 }
 
 
-.moviecontainer
-{
+.moviecontainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-top: 100px;
 }
 
-.heading
-{
+.heading {
     color: white;
     text-align: center;
     font-size: 100px;
@@ -96,8 +93,7 @@ a
 }
 
 
-.genreselected
-{
+.genreselected {
     display: flex;
     color: white;
     text-shadow: 0 0 15px yellow;
@@ -109,44 +105,42 @@ a
 
 @media screen and (max-width:768px) {
 
-    .heading{
-      font-size: 55px;
+    .heading {
+        font-size: 55px;
     }
-  
-    .top{
-      flex-direction: column;
-      margin-top: 30px;
+
+    .top {
+        flex-direction: column;
+        margin-top: 30px;
     }
-  
-    .navbar
-    {
+
+    .navbar {
         margin-top: 20px;
         justify-content: center;
         gap: 0px;
     }
-  
-    .home,.about
-    {
+
+    .home,
+    .about {
         margin-bottom: 20px;
         margin-right: 40px;
     }
-  
-    .home,.about,.contact
-    {
+
+    .home,
+    .about,
+    .contact {
         margin-left: -10px;
     }
-  
-    .streamixx
-    {
+
+    .streamixx {
         justify-content: center;
     }
 
-    .genreselected{
+    .genreselected {
         font-size: 60px;
     }
 
-    .moviecontainer{
+    .moviecontainer {
         margin-top: 10px;
     }
-  }
-  
+}

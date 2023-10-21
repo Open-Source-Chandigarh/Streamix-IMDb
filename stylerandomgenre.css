@@ -1,22 +1,22 @@
-@font-face{
+@font-face {
     font-family: robo;
     src: url(./fonts/Roboto_Slab/static/RobotoSlab-Regular.ttf);
 }
 
-html
-{
+html {
     scroll-behavior: smooth;
     color: white;
 }
 
-body{
+body {
     font-family: 'Poppins';
 }
-body{
+
+body {
     background: black;
 }
 
-@font-face{
+@font-face {
     font-family: play;
     src: url(./fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf);
 }
@@ -26,26 +26,23 @@ body{
     src: url(./fonts/Montserrat/static/Montserrat-Regular.ttf);
 }
 
-.logosite{
+.logosite {
     width: 40px;
     margin-right: 5px;
     display: flex;
 }
 
-a
-{
+a {
     text-decoration: none;
     color: white;
     font-weight: 600;
 }
 
-.logo
-{
+.logo {
     display: flex;
 }
 
-.navbar
-{
+.navbar {
     display: flex;
     padding: 15px;
     text-shadow: 0 0 15px yellow;
@@ -53,24 +50,26 @@ a
     gap: 50px;
 }
 
-.home,.about{
+.home,
+.about {
     margin-right: 20px;
 }
 
-.home,.about,.contact{
+.home,
+.about,
+.contact {
     font-size: 25px;
     font-family: 'Poppins';
     color: white;
 }
 
-.top
-{
+.top {
     display: flex;
     justify-content: center;
     margin-top: -50px;
 }
 
-.streamixx{
+.streamixx {
     font-size: 30px;
     font-family: 'Poppins';
     color: white;
@@ -79,7 +78,7 @@ a
 }
 
 
-#rdngenrepick{
+#rdngenrepick {
     display: inline-block;
     font-family: 'Poppins';
     border-radius: 4px;
@@ -95,7 +94,7 @@ a
     margin: 5px;
 }
 
-#rdnfenrepick{
+#rdnfenrepick {
     display: inline-block;
     font-family: 'Poppins';
     border-radius: 4px;
@@ -125,29 +124,27 @@ a
     top: 0;
     right: -15px;
     transition: 0.5s;
-   }
-   
+}
+
 #rdngenrepick:hover span {
     padding-right: 15px;
-   }
+}
 
-   
+
 #rdngenrepick:hover span:after {
     opacity: 1;
     right: 0;
-   }
+}
 
 
-.moviecontainer
-{
+.moviecontainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-top: 100px;
 }
 
-.heading
-{
+.heading {
     color: white;
     font-weight: 600;
     text-shadow: 0 0 10px yellow;
@@ -155,23 +152,20 @@ a
     font-size: 100px;
 }
 
-.buttons-genre
-{
+.buttons-genre {
     margin-top: 70px;
     display: flex;
     flex-direction: column;
     justify-items: center;
 }
 
-.buttons
-{
+.buttons {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.genreselected
-{
+.genreselected {
     color: white;
     text-shadow: 0 0 10px rgb(237, 0, 186);
     font-size: 150px;
@@ -179,14 +173,12 @@ a
     border: 2px solid white;
 }
 
-.another
-{
+.another {
     display: none;
     margin-top: 150px;
 }
 
-.got-this-movie
-{
+.got-this-movie {
     color: white;
     margin-top: 20px;
     text-shadow: 0 0 15px aquamarine;
@@ -198,50 +190,49 @@ a
 
 @media screen and (max-width:768px) {
 
-    #button-container{
-      flex-direction: column;
-      gap: 30px;
+    #button-container {
+        flex-direction: column;
+        gap: 30px;
     }
-  
-    button{
-      margin-bottom: 25px;
-      margin: auto;
+
+    button {
+        margin-bottom: 25px;
+        margin: auto;
     }
-  
-    .heading{
-      font-size: 55px;
+
+    .heading {
+        font-size: 55px;
     }
-  
-    .top{
-      flex-direction: column;
-      margin-top: 30px;
+
+    .top {
+        flex-direction: column;
+        margin-top: 30px;
     }
-  
-    #merge-button{
-      border: 2px solid white;
-      margin:0;
+
+    #merge-button {
+        border: 2px solid white;
+        margin: 0;
     }
-  
-    .navbar
-    {
+
+    .navbar {
         margin-top: 20px;
         justify-content: center;
         gap: 0px;
     }
-  
-    .home,.about
-    {
+
+    .home,
+    .about {
         margin-bottom: 20px;
         margin-right: 40px;
     }
-  
-    .home,.about,.contact
-    {
+
+    .home,
+    .about,
+    .contact {
         margin-left: -10px;
     }
-  
-    .streamixx
-    {
+
+    .streamixx {
         justify-content: center;
     }
 
@@ -249,17 +240,16 @@ a
         margin-top: 40px;
     }
 
-    .got-this-movie{
+    .got-this-movie {
         font-size: 40px;
         padding: 10px;
     }
 
-    .genreselected{
+    .genreselected {
         font-size: 70px;
     }
 
-    .moviecontainer{
+    .moviecontainer {
         margin-top: 10px;
     }
-  }
-  
+}

@@ -1,7 +1,5 @@
 Feel free to contribute! 🌈✨
 
-View Website here : https://streamixx39123.netlify.app/
-
 # Streamix IMDb
 
 Streamix IMDb is an open-source web platform that allows users to explore, rate, and review their favorite movies and TV shows, creating a collaborative space for movie enthusiasts.

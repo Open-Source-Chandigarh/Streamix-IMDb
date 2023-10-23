@@ -409,7 +409,7 @@ a {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    padding: 0px 100px 0px 100px;
+    padding: 0px 35px 0px 35px;
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
     margin-top: 100px;
 }

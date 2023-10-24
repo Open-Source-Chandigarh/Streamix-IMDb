@@ -1125,3 +1125,88 @@ p {
         background-color: #ff3131;
     }
 }
+
+.card-group{
+    height: 400px;
+    
+    padding: 8px;
+}
+.card-group .card{
+    height: 100%;
+}
+.card img{
+    height: 100%;
+}
+.glow {
+    font-size: 60px;
+    color: #fff;
+  
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 10px #ead948, 0 0 20px #b7b225;
+    }
+    
+    to {
+      text-shadow: 0 0 10px #fff, 0 0 20px #ff504d, 0 0 30px #f31a1a, 0 0 40px #fd0b0b;
+    }
+  }
+  .card{
+    width: 300px;
+    height: auto;
+    
+    margin: 2px;
+    position:relative;
+
+    
+}
+.content{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    text-transform: uppercase;
+    opacity:0;
+    z-index: 1;
+    transition: all 0.2s ease-in-out;
+    width: 90%;
+
+}
+.card:hover .content{
+    top:50%;
+    opacity:1;
+}
+img{
+    width: 100%;
+  
+}
+.card::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.486);
+    opacity: 0;
+    transition:opacity 200ms ease-in-out;
+}
+.card:hover::after{
+ opacity: 1;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    padding: 15px;
+    border: 1px solid black;
+}

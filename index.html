@@ -14,21 +14,32 @@
     <script defer src="./Data/videoscript/script.js"></script>
 </head>
 <body>
-
-    <div class="topbar">
-    <div class="logo">
-    <a href="#" class="logosite">
-    <img src="./Data/logo/LogoStreamMixx.png" alt="sitelogo" class="logosite">
-    <div class="streamixx">Streamixx</div></a>
-    
-    </div>
-    <div class="top">
-    <div class="navbar">
-        <div class="home"><a href="#">Home</a></div>
-        <div class="about"><a href="#abse">About Us</a></div>
-        <div class="contact"><a href="#contactus">Contact Us</a></div>
-    </div>
-    </div>
+    <div id="nav-bar">
+        <div id="logo-container">
+            <a href="#" class="logosite">
+                <img src="./Data/logo/LogoStreamMixx.png" alt="Streamixx Logo" id="logo">
+                <div class="streamixx">Streamixx</div>
+            </a>
+        </div>
+        <div id="search-bar-container" class="search-blur">
+            <select name="search-options" id="search-options">
+                <option value="all">All</option>
+                <option value="movies">Movies</option>
+                <option value="series">Series</option>
+                <option value="tv-shows">TV Shows</option>
+            </select>
+            <input type="text" placeholder="Search Streamixx" id="search-bar" onfocus="onFocusSearch()" onblur="onBlurSearch()"/>
+            <div id="search-icon-container">
+                <img src="./Data/navbar/search.png" alt="search-icon" id="search-icon"/>
+            </div>
+        </div>
+        <div id="menu-container" class="nav-section navbar">
+            <div class="home"><a href="#">Home</a></div>
+            <div class="about"><a href="#abse">About Us</a></div>
+            <div class="contact"><a href="#contactus">Contact Us</a></div>
+            <img src="./Data/navbar/bookmark-icon.png" alt="bookmark-icon" id="bookmark-icon"/>
+            <button class="sign-in">Sign In</button>
+        </div>
     </div>
 
     <div class="welcomepage">

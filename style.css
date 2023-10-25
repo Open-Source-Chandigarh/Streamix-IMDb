@@ -9,16 +9,15 @@
 }
 html {
     scroll-behavior: smooth;
-    color: #ffffff;
+    color: white;
 }
 
 body {
     font-family: 'Poppins';
-
 }
 
 body {
-    background: black !important;
+    background: black;
 }
 
 @font-face {
@@ -1061,99 +1060,67 @@ p {
 
 /* CSS for Footer Section */
 
-.footerSection {
+.footer {
     background-color: black;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-content {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-
-}
-
-.title {
-    color: black;
-    font-family: "roboto";
-    border-width: 0px;
-    border-radius: 8px;
-    padding: 10px;
-    background-color: #a89032;
-    width: 300px;
-    margin-top: 20px;
-    margin-bottom: 25px;
-    font-size: 25px;
-    font-weight: bold;
-}
-
-.logo-section {
-    background-color: black;
-    text-align: center;
-    padding: 20px;
-}
-
-.logo-section i {
-    font-size: 30px;
-    margin: 0 10px;
-    color: white;
-}
-
-.additional-info {
-    background-color: black;
-    text-align: center;
-    padding: 20px;
-
-}
-
-.additional-info p {
-    color: white;
-    margin: 0;
-}
-
-.additional-info .row {
-    display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
-.additional-info .row .item {
-    margin: 10px;
-
+.footer-links a,
+.social-links a {
     color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: 600;
+    transition: color 0.3s;
 }
 
-.arrow-icon {
-    font-size: 16px;
-    color: white;
+.footer-links a:hover,
+.social-links a:hover {
+    color: yellow;
 }
 
-.checkmark-cross {
-    font-size: 16px;
-    color: white;
+.social-links a img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    transition: transform 0.3s;
 }
 
-.company-logo {
+.social-links a:hover img {
+    transform: scale(1.2);
+}
+
+.copyright {
     text-align: center;
-    padding: 20px;
+    font-size: 14px;
+    margin-top: 20px;
 }
 
-.company-logo img {
-    max-width: 100px;
-
-    display: block;
-
-    margin: 2px;
-
-
+/* Background Animation */
+.footer {
+    animation: backgroundAnimation 8s linear infinite;
 }
 
-.company-logo p {
-    margin: 10px 0;
+@keyframes backgroundAnimation {
+    0% {
+        background-color: #ff3131;
+    }
 
-    color: white;
-    display: flex;
+    50% {
+        background-color: #333;
+    }
 
-
-
-}
     100% {
         background-color: #ff3131;
     }

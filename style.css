@@ -43,6 +43,10 @@ a {
     font-weight: 600;
 }
 
+#logo-container a{
+    text-decoration: none;
+}
+
 #logo {
     display: flex;
     width: 60px;
@@ -59,7 +63,7 @@ a {
 }
 
 .home,.about,.contact{
-    font-size: 15px;
+    font-size: 12px;
     font-family: 'Poppins';
     color: white;
     margin-right: 5px;
@@ -225,7 +229,6 @@ a {
 
 #menu-icon-container {
     align-items: center;
-    display: none;
     margin-right: 15px;
     margin-left: 20px;
 }
@@ -266,7 +269,7 @@ a {
 }
 
 .side-nav a {
-    padding: 8px 8px 8px 32px;
+    padding: 8px 8px 8px 35px;
     text-decoration: none;
     font-size: 25px;
     color: white;
@@ -278,6 +281,8 @@ a {
     text-shadow: 0 0 15px yellow;
     text-decoration: underline;
     text-decoration-color: yellow;
+    color: white;
+    background-color: #111;
 }
 
 .welcome{

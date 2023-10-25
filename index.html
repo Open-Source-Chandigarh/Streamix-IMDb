@@ -66,9 +66,11 @@
             <img src="./Data/navbar/close-icon.png" alt="close-icon" id="close-icon" onclick="closeSideNav()"/>
         </div>
         <a href="#" onclick="closeSideNav()">Home</a>
-        <a href="#abse" onclick="closeSideNav()">About Us</a>
+        <a href="#genres" onclick="closeSideNav()">Genres</a>
+        <a href="#latestMovies" onclick="closeSideNav()">Latest Movies</a>
+        <a href="#imdbtop" onclick="closeSideNav()">Top 5 this week</a>
         <a href="#contactus" onclick="closeSideNav()">Contact Us</a>
-        <a href="#" onclick="closeSideNav()">Sign In</a>
+        <a href="#footerSection" onclick="closeSideNav()">About Us</a>
     </div>
 
     <div class="welcomepage">
@@ -106,7 +108,7 @@
     <br><br><br>
 
 <!-- ===================================================================== -->
-<h2 style="margin-bottom: 40px;margin-left: 20px; padding: 10px;" class="glow">Latest Movies</h2>
+<h2 style="margin-bottom: 40px;margin-left: 20px; padding: 10px;" class="glow" id="latestMovies">Latest Movies</h2>
 <div id="carouselExampleCaptions" class="carousel carousel-dark slide" data-bs-ride="false" style="margin-bottom: 100px;">
     <div class="carousel-indicators" style="background-color: rgba(255, 255, 255, 0.54);">
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"s></button>
@@ -191,7 +193,7 @@
   </div>
 <!-- =============================================================================== -->
 
-    <div class="genres">
+    <div class="genres" id="genres">
         <div class="action-genre reveal fade-left">
             <video id="my-video1" src="./Data/genvid/vid1.mp4" muted loop></video>
             <div class="genre-content">
@@ -297,7 +299,7 @@
     </div>
     <br>
     <main class="main1">
-        <div class="imdbtop">
+        <div class="imdbtop" id="imdbtop">
             <h1>Top 5 on <span>IMDB</span> this week</h1>
         </div>
         <div class="imdb_cards">
@@ -422,7 +424,7 @@
     </div>
 
 <!-- Footer Section -->
-<div class="footerSection">
+<div class="footerSection" id="footerSection">
     <button class="title">Sign in for more access</button>
 
 

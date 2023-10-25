@@ -29,6 +29,47 @@
 
 
 </head>
+<body>
+    <div id="nav-bar">
+        <div id="menu-icon-container" onclick="openSideNav()">
+            <img src="./Data/navbar/menu-icon.png" alt="menu-icon" id="menu-icon"/>
+        </div>
+        <div id="logo-container">
+            <a href="#" class="logosite">
+                <img src="./Data/logo/LogoStreamMixx.png" alt="Streamixx Logo" id="logo">
+                <div class="streamixx">Streamixx</div>
+            </a>
+        </div>
+        <div id="search-bar-container" class="search-blur">
+            <select name="search-options" id="search-options">
+                <option value="all">All</option>
+                <option value="movies">Movies</option>
+                <option value="series">Series</option>
+                <option value="tv-shows">TV Shows</option>
+            </select>
+            <input type="text" placeholder="Search Streamixx" id="search-bar" onfocus="onFocusSearch()" onblur="onBlurSearch()"/>
+            <div id="search-icon-container">
+                <img src="./Data/navbar/search.png" alt="search-icon" id="search-icon"/>
+            </div>
+        </div>
+        <div id="menu-container" class="nav-section navbar">
+            <div class="home"><a href="#">Home</a></div>
+            <div class="about" id="about"><a href="#abse">About Us</a></div>
+            <div class="contact"><a href="#contactus">Contact Us</a></div>
+            <img src="./Data/navbar/bookmark-icon.png" alt="bookmark-icon" id="bookmark-icon"/>
+            <button class="sign-in">Sign In</button>
+        </div>
+    </div>
+
+    <div id="overlay-nav" class="side-nav">
+        <div id="side-nav-close">
+            <img src="./Data/navbar/close-icon.png" alt="close-icon" id="close-icon" onclick="closeSideNav()"/>
+        </div>
+        <a href="#" onclick="closeSideNav()">Home</a>
+        <a href="#abse" onclick="closeSideNav()">About Us</a>
+        <a href="#contactus" onclick="closeSideNav()">Contact Us</a>
+        <a href="#" onclick="closeSideNav()">Sign In</a>
+=======
 
 <body style="background-color: black;color: white;" >
 
@@ -79,6 +120,7 @@
                         type="button"><span>Pick Multiple Genres</span></button></a>
             </div>
         </div>
+
     </div>
 
     <br><br><br>

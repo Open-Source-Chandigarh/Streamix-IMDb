@@ -56,3 +56,10 @@ function reveal() {
         }
 window.addEventListener("scroll", reveal);
           
+function openSideNav() {
+    document.getElementById("overlay-nav").style.width = "250px";
+}
+  
+function closeSideNav() {
+    document.getElementById("overlay-nav").style.width = "0px";
+}

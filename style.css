@@ -31,10 +31,10 @@ body {
     src: url(./fonts/Montserrat/static/Montserrat-Regular.ttf);
 }
 
-.logosite {
-    width: 40px;
-    margin-right: 5px;
+.logosite{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 a {
@@ -43,8 +43,15 @@ a {
     font-weight: 600;
 }
 
-.logo {
+#logo-container a{
+    text-decoration: none;
+}
+
+#logo {
     display: flex;
+    width: 60px;
+    height: auto;
+    margin-right: 5px;
 }
 
 .navbar {
@@ -55,17 +62,32 @@ a {
     gap: 50px;
 }
 
-.home,
-.about {
-    margin-right: 20px;
-}
-
-.home,
-.about,
-.contact {
-    font-size: 25px;
+.home,.about,.contact{
+    font-size: 12px;
     font-family: 'Poppins';
     color: white;
+    margin-right: 5px;
+}
+
+.sign-in {
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding-left: 10px; 
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white; 
+    font-size: 12px;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+.sign-in:hover {
+    box-shadow: 0 0 15px yellow;
+    background-color: white;
+    color: black;
+    border: none;
 }
 
 /* Navigation links style */
@@ -116,21 +138,160 @@ a {
     margin-top: -50px;
 }
 
-.streamixx {
-    font-size: 30px;
+.streamixx{
+    font-size: 20px;
     font-family: 'Poppins';
     color: white;
     display: flex;
     letter-spacing: 5px;
 }
 
-.welcome {
+#nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav-section {
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#logo-container {
+    width: 15%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+
+#search-bar-container {
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+#search-options {
+    font-family: 'Poppins';
+    border: none;
+    height: 35px;
+    width: 15%;
+    background-color: white;
+    padding-left: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#search-options:focus {
+    outline: none;
+}
+
+#search-bar {
+    font-family: 'Poppins';
+    width: 80%;
+    height: 30px;
+    border: none;
+    padding-left: 10px;
+}
+
+#search-bar:focus {
+    outline: none;
+}
+
+#search-icon-container {
+    display: flex;
+    padding-right: 10px;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: white;
+    height: 35px;
+    width: 5%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#search-icon{
+    width: 15px;
+    height: 15px;
+}
+
+#bookmark-icon {
+    width: 30px;
+    height: auto;
+}
+
+#menu-icon-container {
+    align-items: center;
+    margin-right: 15px;
+    margin-left: 20px;
+}
+
+#menu-icon {
+    width: 25px;
+    height: auto;
+}
+
+#side-nav-close {
+    width: 100%;
+    text-align: right;
+    padding: 5px;
+    font-size: 30px;
+    color: white;
+}
+
+#close-icon {
+    margin-right: 20px;
+    width: 35px;
+    height: auto;
+}
+
+.side-nav {
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black; 
+    overflow-x: hidden;
+    padding-top: 50px;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins';
+}
+
+.side-nav a {
+    padding: 8px 8px 8px 35px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+  
+.side-nav a:hover {
+    text-shadow: 0 0 15px yellow;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    color: white;
+    background-color: #111;
+}
+
+.welcome{
     color: white;
     height: 300px;
     font-size: 8vw;
     font-family: 'Poppins';
     text-align: center;
-    margin-top: 140px;
+    margin-top: 100px;
     font-weight: 700;
     text-shadow: 0 0 15px #ff3131;
 }
@@ -959,26 +1120,54 @@ p {
         margin-top: 10px;
     }
 
-    .navbar {
-        margin-top: 70px;
-        justify-content: center;
+    #menu-icon-container {
+        display: flex;
+    }
+
+    .sign-in{
+        display: none;
+    }
+
+    #logo{
+        margin: 0;
+    }
+
+    .navbar
+    {
         gap: 0px;
+        align-items: center;
     }
 
-    .home,
-    .about {
-        margin-bottom: 20px;
-        margin-right: 40px;
+    .home,.about,.contact
+    {
+        display: none;
     }
 
-    .home,
-    .about,
-    .contact {
-        margin-left: -10px;
+    .streamixx
+    {
+        display: none;
     }
 
-    .streamixx {
-        justify-content: center;
+    #bookmark-icon{
+        margin-right: 20px;
+    }
+
+    #search-bar-container{
+        width: 60%;
+        margin-right: 5%;
+    }
+
+    #search-bar {
+        width: 68%;
+    }
+
+    #search-options {
+        width: 27%;
+        font-size: 12px;
+    }
+
+    .sign-in {
+        justify-self: flex-end;
     }
 
     .welcomepage {

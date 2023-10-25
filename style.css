@@ -2,7 +2,11 @@
     font-family: robo;
     src: url(./fonts/Roboto_Slab/static/RobotoSlab-Regular.ttf);
 }
-
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;  
+}
 html {
     scroll-behavior: smooth;
     color: #ffffff;
@@ -378,7 +382,193 @@ a {
         opacity: 1;
     }
 }
+/* TOP-5 IMDB Section */
+.imdbtop{
+    text-align: center;
+    width: 100%;
+    height: 70px;
+    animation-name: imdb1;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    text-shadow: 0px 0px 10px rgba(255, 217, 0, 0.675);
+}
+@keyframes imdb1 {
+    0%{
+        opacity: 0;
+        transform: translateY(60px) scale(0.5);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+.imdbtop span{
+    color: gold;
+    font-family: cursive, Arial, Helvetica, sans-serif;
+}
+.main1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0px 35px 0px 35px;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    margin-top: 100px;
+}
+.imdb_cards{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px; 
+}
+.cards{
+    box-shadow: 5px 5px 10px white;
+    margin-top: 50px;
+    transition: all 1s;
+    animation-name: imdb2;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+}
+@keyframes imdb2 {
+    0%{
+        opacity: 0;
+        transform: translateX(60px) scale(0.5);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+.cards img{
+    width: 100%;
+    height: 65%;
+    border-bottom: 2px solid black;
+    border-radius: 8px 8px 0px 0px;
+}
+.cards:hover{
+    transform: translateY(-40px);
+    cursor: pointer;
+}
+#card-2 img{
+    height: 338px;
+}
+#card-3 img{
+    height: 375px;
+}
+#card-4 img{
+    height: 338px;
+}
+#card-5 img{
+    height: 338px;
+}
+.cards{
+    width: 20%;
+    height: 550px;
+    border: 2px solid black;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgba(15, 15, 15, 0.853);
+}
+.rating{
+    height: 10%;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    
+}
+#totalrating{
+    font-size: 1.4em;
+    
+    fill: gold;   
+}
+.rating .left{
 
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.rating .left .ratingnum{
+    width: 50%;
+    padding-top: 8px;
+    font-size: 1.2em;
+    color: white;
+    font-weight: 500;
+}
+.rating .right{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+}
+#ratehere{
+    color: white;
+    font-size: 1.5em;
+    padding-top: 8px;
+    font-weight: 100;
+}
+#ratehere:hover{
+    color: gold;
+    cursor: pointer;
+}
+.cards h2{
+    
+    color: white;
+    padding: 5px;
+}
+ion-icon{
+    position: relative;
+    top: 2px;
+    right: 4px;
+}
+.imdb_cards .watch button{
+   background-color: rgb(109, 106, 106);
+}
+.watchbtn{
+    padding: 0px 10px 0px 10px;
+    width: 100%;
+    
+}
+.watchbtn button{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 7px;
+    background-color: rgba(224, 220, 220, 0.129);
+    font-size: 1.2em;
+    font-weight: bold;
+    color: rgba(4, 110, 203, 0.975);
+    cursor: pointer;
+}
+.watchbtn button:hover{
+    background-color: rgba(235, 235, 235, 0.179);
+}
+.trailerbtn{
+    padding: 0px 10px 10px 10px;
+    width: 100%;
+    
+}
+.trailerbtn button{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 7px;
+    background-color: inherit;
+    font-size: 1em;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.829);
+}
+.trailerbtn button:hover{
+    background-color: rgba(224, 220, 220, 0.129);
+    cursor: pointer;
+}
+/* TOP-5 IMDB Section ENDS */
 .aboutsection {
     display: grid;
     justify-content: center;
@@ -962,4 +1152,94 @@ p {
     display: flex;
 
 
+
+}
+    100% {
+        background-color: #ff3131;
+    }
+}
+
+.card-group{
+    height: 400px;
+    
+    padding: 8px;
+}
+.card-group .card{
+    height: 100%;
+}
+.card img{
+    height: 100%;
+}
+.glow {
+    font-size: 60px;
+    color: #fff;
+  
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 10px #ead948, 0 0 20px #b7b225;
+    }
+    
+    to {
+      text-shadow: 0 0 10px #fff, 0 0 20px #ff504d, 0 0 30px #f31a1a, 0 0 40px #fd0b0b;
+    }
+  }
+  .card{
+    width: 300px;
+    height: auto;
+    
+    margin: 2px;
+    position:relative;
+
+    
+}
+.content{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    text-transform: uppercase;
+    opacity:0;
+    z-index: 1;
+    transition: all 0.2s ease-in-out;
+    width: 90%;
+
+}
+.card:hover .content{
+    top:50%;
+    opacity:1;
+}
+img{
+    width: 100%;
+  
+}
+.card::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.486);
+    opacity: 0;
+    transition:opacity 200ms ease-in-out;
+}
+.card:hover::after{
+ opacity: 1;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    padding: 15px;
+    border: 1px solid black;
 }

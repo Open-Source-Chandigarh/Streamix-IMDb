@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,64 +16,168 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <script defer src="./Data/videoscript/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+
+
 </head>
-<body>
+
+<body style="background-color: black;color: white;" >
 
     <div class="topbar">
-    <div class="logo">
-    <a href="#" class="logosite">
-    <img src="./Data/logo/LogoStreamMixx.png" alt="sitelogo" class="logosite">
-    <div class="streamixx">Streamixx</div></a>
-    
-    </div>
-    <div class="top">
-    <div class="navbar">
-        <div class="home"><a href="#">Home</a></div>
-        <div class="about"><a href="#abse">About Us</a></div>
-        <div class="contact"><a href="#contactus">Contact Us</a></div>
-    </div>
-    </div>
+        <div class="logo">
+            <a href="#" class="logosite">
+                <img src="./Data/logo/LogoStreamMixx.png" alt="sitelogo" class="logosite">
+                <div class="streamixx">Streamixx</div>
+            </a>
+
+        </div>
+        <div class="top">
+            <div class="navbar">
+                <div class="home"><a href="#">Home</a></div>
+                <div class="about"><a href="#abse">About Us</a></div>
+                <div class="contact"><a href="#contactus">Contact Us</a></div>
+            </div>
+        </div>
     </div>
 
     <div class="welcomepage">
-    <div class="welcome">
-        Welcome To Streamixx
-    </div>
-    <div class="allimage">
-    <div class="image1">
-    </div>
-    <div class="image2">
-    </div>
-    <div class="image3">
-    </div>
-    <div class="image4">
-    </div>
-    </div>
+        <div class="welcome">
+            Welcome To Streamixx
+        </div> 
+        <div class="allimage">
+            <div class="image1">
+            </div>
+            <div class="image2">
+            </div>
+            <div class="image3">
+            </div>
+            <div class="image4">
+            </div>
+        </div>
     </div>
 
     <div class="welcomemessage">
         The World of Cinema and Entertainment
     </div>
     <div class="cont">
-    <div class="buttons" id="dropdown"><button id="rdnpickx" type="button"><span>Pick a Movie</span></button>
-    <div id="dropdown-content">
-        <a href="randompick.html" target="_blank"><button class="umm" id="rdnpick" type="button"><span>Pick any Random Movie</span></button></a>
-        <a href="randomgenre.html" target="_blank"><button class="umm" id="rdnpick" type="button"><span>Pick a Random Genre</span></button></a>
-        <a href="selectingmultiplegenre.html" target="_blank"><button class="umm" id="rdnpick" type="button"><span>Pick Multiple Genres</span></button></a>
-    </div>
-    </div>
+        <div class="buttons" id="dropdown"><button id="rdnpickx" type="button"><span>Pick a Movie</span></button>
+            <div id="dropdown-content">
+                <a href="randompick.html" target="_blank"><button class="umm" id="rdnpick" type="button"><span>Pick any
+                            Random Movie</span></button></a>
+                <a href="randomgenre.html" target="_blank"><button class="umm" id="rdnpick" type="button"><span>Pick a
+                            Random Genre</span></button></a>
+                <a href="selectingmultiplegenre.html" target="_blank"><button class="umm" id="rdnpick"
+                        type="button"><span>Pick Multiple Genres</span></button></a>
+            </div>
+        </div>
     </div>
 
     <br><br><br>
+
+<!-- ===================================================================== -->
+<h2 style="margin-bottom: 40px;margin-left: 20px; padding: 10px;" class="glow">Latest Movies</h2>
+<div id="carouselExampleCaptions" class="carousel carousel-dark slide" data-bs-ride="false" style="margin-bottom: 100px;">
+    <div class="carousel-indicators" style="background-color: rgba(255, 255, 255, 0.54);">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"s></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+       <div class="card-group">
+        <div class="card">
+         <img src="./Data/Top-5 IMDB/Oppenheimer_poster.png" class="card-img-top" alt="...">
+         <p class="content">"Oppenheimer" is a gripping biographical film directed by Christopher Nolan, exploring the life of J. Robert Oppenheimer, the brilliant scientist behind the atomic bomb. The movie delves into his complex moral dilemmas and the profound impact of his work on history. With stellar performances and Nolan's signature storytelling, it offers a thought-provoking glimpse into the man who shaped the course of the 20th century.</p>
+        
+    </div>
+    <div class="card">
+      <img src="./Data/Top-5 IMDB/RRR_poster.png" class="card-img-top" alt="...">
+      <p class="content">"RRR" is an epic Indian Telugu-language film directed by S.S. Rajamouli. The movie features two legendary actors, N.T. Rama Rao Jr. and Ram Charan, in lead roles. Set in the pre-independence era, it tells the story of two freedom fighters and their journey, promising spectacular action and grand storytelling. "RRR" has generated immense anticipation among fans and movie enthusiasts alike.</p>
+      
+    </div>
+    <div class="card">
+      <img src="./Data/Top-5 IMDB/sam_bahadur_poster.png" class="card-img-top" alt="...">
+      <p class="content">
+        "Sam Bahadur" is an upcoming biographical film that chronicles the life of Field Marshal Sam Manekshaw, the legendary Indian military leader. Starring Vicky Kaushal in the titular role, the movie is set to portray Manekshaw's remarkable career, from his role in India's independence to the 1971 Indo-Pak war. Anticipation is high for this epic tale of valor and leadership.</p>
+     
+      
+    </div>
+  </div>
+  
+      </div>
+      <div class="carousel-item">
+  <div class="card-group">
+    <div class="card">
+      <img src="./Data/Top-5 IMDB/The_Archies.png" class="card-img-top" alt="...">
+      <p class="content">"The Archives" is a riveting mystery film by Bong Joon-ho, starring Mark Ruffalo and Tilda Swinton. Ruffalo, an archivist, uncovers a century-old conspiracy tied to unsolved murders, creating a suspenseful and engaging story. With a perfect blend of history, suspense, and supernatural elements, this film is a captivating cinematic experience. Don't miss this thought-provoking thriller.</p>
+    
+    </div>
+    <div class="card">
+      <img src="./Data/Top-5 IMDB/Tiger_3_poster.png" class="card-img-top" alt="...">
+      <p class="content">"Tiger 3" is a highly anticipated action thriller film starring Salman Khan and Katrina Kaif. The movie is the third installment in the successful Tiger franchise, known for its high-octane action sequences and espionage plot. Directed by Maneesh Sharma, it promises to deliver a gripping storyline with intense action and suspense. Fans are eagerly awaiting this blockbuster.</p>
+    
+    </div>
+    <div class="card">
+        <img src="./Data/Top-5 IMDB/RRR_poster.png" class="card-img-top" alt="...">
+        <p class="content">"RRR" is an epic Indian Telugu-language film directed by S.S. Rajamouli. The movie features two legendary actors, N.T. Rama Rao Jr. and Ram Charan, in lead roles. Set in the pre-independence era, it tells the story of two freedom fighters and their journey, promising spectacular action and grand storytelling. "RRR" has generated immense anticipation among fans and movie enthusiasts alike.</p>
+        
+    </div>
+  </div>
+  
+      </div>
+      <div class="carousel-item">
+    
+  
+  <div class="card-group">
+    <div class="card">
+        <img src="./Data/Top-5 IMDB/sam_bahadur_poster.png" class="card-img-top" alt="...">
+        <p class="content">
+          "Sam Bahadur" is an upcoming biographical film that chronicles the life of Field Marshal Sam Manekshaw, the legendary Indian military leader. Starring Vicky Kaushal in the titular role, the movie is set to portray Manekshaw's remarkable career, from his role in India's independence to the 1971 Indo-Pak war. Anticipation is high for this epic tale of valor and leadership.</p>
+       
+        
+    </div>
+    <div class="card">
+        <img src="./Data/Top-5 IMDB/The_Archies.png" class="card-img-top" alt="...">
+        <p class="content">"The Archives" is a riveting mystery film by Bong Joon-ho, starring Mark Ruffalo and Tilda Swinton. Ruffalo, an archivist, uncovers a century-old conspiracy tied to unsolved murders, creating a suspenseful and engaging story. With a perfect blend of history, suspense, and supernatural elements, this film is a captivating cinematic experience. Don't miss this thought-provoking thriller.</p>
+      
+    </div>
+    <div class="card">
+        <img src="./Data/Top-5 IMDB/Tiger_3_poster.png" class="card-img-top" alt="...">
+        <p class="content">"Tiger 3" is a highly anticipated action thriller film starring Salman Khan and Katrina Kaif. The movie is the third installment in the successful Tiger franchise, known for its high-octane action sequences and espionage plot. Directed by Maneesh Sharma, it promises to deliver a gripping storyline with intense action and suspense. Fans are eagerly awaiting this blockbuster.</p>
+      
+    </div>
+  </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true" ></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<!-- =============================================================================== -->
 
     <div class="genres">
         <div class="action-genre reveal fade-left">
             <video id="my-video1" src="./Data/genvid/vid1.mp4" muted loop></video>
             <div class="genre-content">
                 <h1>ACTION</h1>
-                <p>A genre featuring high-energy, physical stunts and fast-paced sequences. These films often involve a hero or protagonist fighting against a villain or antagonist, and can include elements of adventure, espionage, or martial arts. Action films can be highly entertaining and thrilling, with a focus on adrenaline-fueled excitement and spectacle.</p>
+                <p>A genre featuring high-energy, physical stunts and fast-paced sequences. These films often involve a
+                    hero or protagonist fighting against a villain or antagonist, and can include elements of adventure,
+                    espionage, or martial arts. Action films can be highly entertaining and thrilling, with a focus on
+                    adrenaline-fueled excitement and spectacle.</p>
             </div>
         </div>
 
@@ -81,7 +186,9 @@
         <div class="action-genre1 reveal fade-right">
             <div class="genre-content">
                 <h1>COMEDY</h1>
-                <p>A genre that aims to entertain and provoke laughter through humorous situations, witty dialogue, and comedic performances. Comedy films can range from slapstick and farce to satire and dark humor, providing a lighthearted escape and often offering social commentary.   </p>
+                <p>A genre that aims to entertain and provoke laughter through humorous situations, witty dialogue, and
+                    comedic performances. Comedy films can range from slapstick and farce to satire and dark humor,
+                    providing a lighthearted escape and often offering social commentary. </p>
             </div>
             <video id="my-video2" src="./Data/genvid/ComGEN.mp4" muted loop></video>
         </div>
@@ -92,7 +199,10 @@
             <video id="my-video3" src="./Data/genvid/DraGEN.mp4" muted loop></video>
             <div class="genre-content">
                 <h1>DRAMA</h1>
-                <p>A genre that explores human emotions and relationships, often with intense and serious themes. These films can include elements of tragedy, romance, and social commentary, and can range from realistic to melodramatic in tone. Drama films can be powerful and moving, with a focus on character development and emotional depth.</p>
+                <p>A genre that explores human emotions and relationships, often with intense and serious themes. These
+                    films can include elements of tragedy, romance, and social commentary, and can range from realistic
+                    to melodramatic in tone. Drama films can be powerful and moving, with a focus on character
+                    development and emotional depth.</p>
             </div>
         </div>
 
@@ -101,7 +211,9 @@
         <div class="action-genre1 reveal fade-right">
             <div class="genre-content">
                 <h1>HORROR</h1>
-                <p>A genre featuring high-energy, physical stunts and fast-paced sequences. These films often involve a hero or protagonist fighting against a villain or antagonist, and can include elements of adventure, espionage, or martial arts.</p>
+                <p>A genre featuring high-energy, physical stunts and fast-paced sequences. These films often involve a
+                    hero or protagonist fighting against a villain or antagonist, and can include elements of adventure,
+                    espionage, or martial arts.</p>
             </div>
             <video id="my-video4" src="./Data/genvid/HorGEN.mp4" muted loop></video>
         </div>
@@ -112,7 +224,12 @@
             <video id="my-video5" src="./Data/genvid/PsyGEN.mp4" muted loop></video>
             <div class="genre-content">
                 <h1>CRIME</h1>
-                A genre that revolves around criminal activities, investigations, and the pursuit of justice. Crime films often explore themes of morality, corruption, and the complexities of the human psyche. They can include elements of suspense, action, and thriller, providing a gritty and realistic depiction of criminal underworlds, heists, detectives, and the blurred lines between law and order. These films captivate audiences with intricate plots, charismatic antiheroes, and a glimpse into the darker side of society.
+                A genre that revolves around criminal activities, investigations, and the pursuit of justice. Crime
+                films often explore themes of morality, corruption, and the complexities of the human psyche. They can
+                include elements of suspense, action, and thriller, providing a gritty and realistic depiction of
+                criminal underworlds, heists, detectives, and the blurred lines between law and order. These films
+                captivate audiences with intricate plots, charismatic antiheroes, and a glimpse into the darker side of
+                society.
             </div>
         </div>
 
@@ -121,7 +238,10 @@
         <div class="action-genre1 reveal fade-right">
             <div class="genre-content">
                 <h1>ROMANCE</h1>
-                A genre that focuses on romantic relationships and the emotions that come with them, often featuring themes of love and heartbreak. These films can range from light-hearted comedies to intense dramas, and can include elements of music, dance, or other forms of expression. Romance films can be highly emotive and romantic, with a focus on exploring the complexities of love and relationships.
+                A genre that focuses on romantic relationships and the emotions that come with them, often featuring
+                themes of love and heartbreak. These films can range from light-hearted comedies to intense dramas, and
+                can include elements of music, dance, or other forms of expression. Romance films can be highly emotive
+                and romantic, with a focus on exploring the complexities of love and relationships.
             </div>
             <video id="my-video6" src="./Data/genvid/RomGEN.mp4" muted loop></video>
         </div>
@@ -132,7 +252,11 @@
             <video id="my-video7" src="./Data/genvid/SciGEN.mp4" muted loop></video>
             <div class="genre-content">
                 <h1>SCI-FI</h1>
-                <p>A genre that explores scientific and technological advancements, often set in futuristic or otherworldly settings. These films can include elements of adventure, action, or horror, and often explore themes such as artificial intelligence, time travel, and extraterrestrial life. Sci-fi films can be highly imaginative and visionary, with a focus on exploring the possibilities of human ingenuity and innovation.</p>
+                <p>A genre that explores scientific and technological advancements, often set in futuristic or
+                    otherworldly settings. These films can include elements of adventure, action, or horror, and often
+                    explore themes such as artificial intelligence, time travel, and extraterrestrial life. Sci-fi films
+                    can be highly imaginative and visionary, with a focus on exploring the possibilities of human
+                    ingenuity and innovation.</p>
             </div>
         </div>
 
@@ -141,35 +265,97 @@
         <div class="action-genre1 reveal fade-right">
             <div class="genre-content">
                 <h1>THRILLER</h1>
-                <p>A genre that keeps audiences on the edge of their seats, typically involving suspenseful plot twists and danger. These films often involve a hero or protagonist trying to outsmart a villain or antagonist, and can include elements of mystery, espionage, or action. Thriller films can be highly engaging and gripping, with a focus on tension and suspense.</p>
+                <p>A genre that keeps audiences on the edge of their seats, typically involving suspenseful plot twists
+                    and danger. These films often involve a hero or protagonist trying to outsmart a villain or
+                    antagonist, and can include elements of mystery, espionage, or action. Thriller films can be highly
+                    engaging and gripping, with a focus on tension and suspense.</p>
             </div>
             <video id="my-video8" src="./Data/genvid/ThrGEN.mp4" muted loop></video>
         </div>
     </div>
-
-    <br><br><br>
-
-    <div class="aboutsection" id="abse">
-        <div class="aboutline">
-            About Us
+    <br>
+    <main class="main1">
+        <div class="imdbtop">
+            <h1>Top 5 on <span>IMDB</span> this week</h1>
         </div>
-        <div class="aboutuscontainer">
-        <div class="nameaboutcontainer">
-            <div class="harshits"><div class="harshitsingla"></div>Harshit Singla
-            <div class="iconstore1">
-            <a href="https://www.instagram.com/harshit_singla1761/"><div class="instac"></div></a>
-            <a href="https://www.linkedin.com/in/harshit-singla-05b782244/" title="linkedin" target="_blank"><div class="linkedinc"></div></a>
+        <div class="imdb_cards">
+            <div class="cards" id="card-1">
+                <img src="./Data/Top-5 IMDB/Tiger_3_poster.png" alt="">
+                <div class="rating" id="r-1">
+                    <div class="left"><ion-icon name="star" id="totalrating"></ion-icon>
+                        <div class="ratingnum">
+                            <p>9.6</p>
+                        </div>
+                    </div>
+                    <div class="right"><ion-icon name="star-outline" id="ratehere"></ion-icon>
+                    </div>
+                </div>
+                <h2>1. Tiger 3</h2>
+                <div class="watchbtn"><button><span>Watch Options</span></button></div>
+                <div class="trailerbtn"><button><ion-icon name="play"></ion-icon>Trailer</button></div>
             </div>
+            <div class="cards" id="card-2">
+                <img src="./Data/Top-5 IMDB/RRR_poster.png" alt="">
+                <div class="rating" id="r-1">
+                    <div class="left"><ion-icon name="star" id="totalrating"></ion-icon>
+                        <div class="ratingnum">
+                            <p>9.5</p>
+                        </div>
+                    </div>
+                    <div class="right"><ion-icon name="star-outline" id="ratehere"></ion-icon>
+                    </div>
+                </div>
+                <h2>2. RRR</h2>
+                <div class="watchbtn"><button>Watch Options</button></div>
+                <div class="trailerbtn"><button><ion-icon name="play"></ion-icon>Trailer</button></div>
             </div>
-            <div class="harshpreets"><div class="harshpreetsingh"></div>Harshpreet Singh
-            <div class="iconstore3">
-            <a href="https://www.instagram.com/harshpreet0402/"><div class="instac"></div></a>
-            <a href="https://www.linkedin.com/in/harshpreetsingh931/"><div class="linkedinc"></div></a>
+            <div class="cards" id="card-3">
+                <img src="./Data/Top-5 IMDB/The_Archies.png" alt="">
+                <div class="rating" id="r-1">
+                    <div class="left"><ion-icon name="star" id="totalrating"></ion-icon>
+                        <div class="ratingnum">
+                            <p>9.2</p>
+                        </div>
+                    </div>
+                    <div class="right"><ion-icon name="star-outline" id="ratehere"></ion-icon>
+                    </div>
+                </div>
+                <h2>3. The Archies</h2>
+                <div class="watchbtn"><button>Watch Options</button></div>
+                <div class="trailerbtn"><button><ion-icon name="play"></ion-icon>Trailer</button></div>
+            </div>
+            <div class="cards" id="card-4">
+                <img src="./Data/Top-5 IMDB/sam_bahadur_poster.png" alt="">
+                <div class="rating" id="r-1">
+                    <div class="left"><ion-icon name="star" id="totalrating"></ion-icon>
+                        <div class="ratingnum">
+                            <p>9.2</p>
+                        </div>
+                    </div>
+                    <div class="right"><ion-icon name="star-outline" id="ratehere"></ion-icon>
+                    </div>
+                </div>
+                <h2>4. Sam Bahadur</h2>
+                <div class="watchbtn"><button>Watch Options</button></div>
+                <div class="trailerbtn"><button><ion-icon name="play"></ion-icon>Trailer</button></div>
+            </div>
+            <div class="cards" id="card-5">
+                <img src="./Data/Top-5 IMDB/Oppenheimer_poster.png" alt="">
+                <div class="rating" id="r-1">
+                    <div class="left"><ion-icon name="star" id="totalrating"></ion-icon>
+                        <div class="ratingnum">
+                            <p>9.0</p>
+                        </div>
+                    </div>
+                    <div class="right"><ion-icon name="star-outline" id="ratehere"></ion-icon>
+                    </div>
+                </div>
+                <h2>5. Oppenheimer</h2>
+                <div class="watchbtn"><button>Watch Options</button></div>
+                <div class="trailerbtn"><button><ion-icon name="play"></ion-icon>Trailer</button></div>
+            </div>
         </div>
-            </div>
-        </div>
-    </div>
-    </div>
+    </main>
 
     <br><br><br>
 
@@ -182,34 +368,37 @@
             <form class="feedbackform">
 
                 <div class="name">
-                <div class="first-name">
-                <label for="fn" class="formitem">First Name</label>
-                <input id="fn" name="First-name" class="inputbox" required></div>
+                    <div class="first-name">
+                        <label for="fn" class="formitem">First Name</label>
+                        <input id="fn"  placeholder="First Name"  name="First-name" class="inputbox" required>
+                    </div>
 
-                <div class="last-name">
-                <label for="ln" class="formitem">Last Name</label>
-                <input id="ln" name="Last-Name" class="inputbox" required></div>
+                    <div class="last-name">
+                        <label for="ln" class="formitem">Last Name</label>
+                        <input id="ln" placeholder="Last Name"   name="Last-Name" class="inputbox" required>
+                    </div>
                 </div>
 
                 <div class="email-class">
                     <label for="mailclas" class="formitem">Email</label>
-                    <input class="inputbox" id="mailclas" name="Email" type="email" required>
+                    <input class="inputbox"   placeholder="xyz@gmail.com"   id="mailclas" name="Email" type="email" required>
                 </div>
 
                 <div class="message">
                     <label for="mesa" class="formitem">Feedback</label>
-                    <input id="mesa" class="inputbox">
+                    <input id="mesa"  placeholder="Your comments"   class="inputbox">
                 </div>
 
                 <div>
-                <input type="submit" class="submit-button">
-                <input type="reset" class="submit-button">
+                    <input type="submit" class="submit-button">
+                    <input type="reset" class="submit-button">
                 </div>
             </form>
 
             <div class="feedimage"></div>
         </div>
     </div>
+
 <!-- Footer Section -->
 <div class="footerSection">
     <button class="title">Sign in for more access</button>
@@ -274,7 +463,33 @@
 </div>
     <a href="#"><div class="topicon"></div></a>
 
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="index.html#">Home</a>
+                <a href="index.html#abse">About</a>
+                <a href="index.html#contactus">Contact</a>
+            </div>
+            <div class="social-links">
+                <a href="#"><img src="./Data/social-icons/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="./Data/social-icons/twitter.png" alt="Twitter"></a>
+                <a href="#"><img src="./Data/social-icons/instagram.png" alt="Instagram"></a>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2023 Streamixx. All rights reserved.
+        </div>
+    </footer>
+    <a href="#">
+        <div class="topicon"></div>
+    </a>
+
+
     <script defer src="./Data/filmdata/script2.js"></script>
-    
+
+
+
 </body>
+
 </html>

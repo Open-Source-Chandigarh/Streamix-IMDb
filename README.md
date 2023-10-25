@@ -1,7 +1,5 @@
 Feel free to contribute! 🌈✨
 
-View Website here : https://streamixx39123.netlify.app/
-
 # Streamix IMDb
 
 Streamix IMDb is an open-source web platform that allows users to explore, rate, and review their favorite movies and TV shows, creating a collaborative space for movie enthusiasts.
@@ -24,7 +22,7 @@ Streamix IMDb is an open-source web platform that allows users to explore, rate,
 
 Streamix IMDb is participating in [Hacktoberfest 2023](https://hacktoberfest.digitalocean.com/), an annual celebration of open source contributions. Join us and contribute to the project to make it even better!
 
-## Contributing
+## Rules for Contributions
 
 We welcome contributions from developers of all experience levels. Here's how you can get started:
 
@@ -35,12 +33,15 @@ We welcome contributions from developers of all experience levels. Here's how yo
 3. **Clone Your Fork:** Clone your fork to your local machine using `git clone`.
 
 4. **Create a New Branch:** Create a new branch for your work with a descriptive name.
+   ```bash
+      git checkout -b new-branch
+   ```
 
-5. **Make Changes:** Implement your desired feature, bug fix, or enhancement.
+6. **Make Changes:** Implement your desired feature, bug fix, or enhancement.
 
-6. **Test and Commit:** Ensure your changes work as expected, write clear commit messages, and push your branch to your fork.
+7. **Test and Commit:** Ensure your changes work as expected, write clear commit messages, and push your branch to your fork.
 
-7. **Open a Pull Request:** Create a pull request from your fork to this repository. Provide a concise title and description.
+8. **Open a Pull Request:** Create a pull request from your fork to this repository. Provide a concise title and description.
 
 We'll review your contribution and work with you to merge it into the project. Please adhere to our code of conduct and guidelines.
 

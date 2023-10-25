@@ -52,7 +52,7 @@ a
     padding: 15px;
     text-shadow: 0 0 15px yellow;
     font-weight: 600;
-    gap: 50px;
+    gap: 34px;
 }
 
 .home,.about,.contact{
@@ -60,6 +60,7 @@ a
     font-family: 'Poppins';
     color: white;
     margin-right: 5px;
+    width: 88px;
 }
 
 .sign-in {
@@ -74,6 +75,7 @@ a
     font-size: 12px;
     font-family: 'Poppins';
     font-weight: bold;
+    width: 82px;
 }
 
 .sign-in:hover {
@@ -89,7 +91,7 @@ a
     padding: 15px;
     text-shadow: 0 0 15px yellow;
     font-weight: 600;
-    gap: 50px;
+    gap: 28px;
 }
 
 .navbar a {
@@ -947,6 +949,14 @@ p
     {
         display: none;
     }
+
+    #about{
+        width: 80px;
+    }
+    .contact{
+        width: 89px;
+    }
+
 
     .streamixx
     {

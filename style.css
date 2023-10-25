@@ -168,6 +168,7 @@ a
     background-color: white;
     margin-right: 20px;
     margin-left: 20px;
+    border-radius: 5px;
 }
 
 #search-options {
@@ -205,6 +206,8 @@ a
     background-color: white;
     height: 35px;
     width: 5%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 #search-icon{
@@ -215,6 +218,63 @@ a
 #bookmark-icon {
     width: 30px;
     height: auto;
+}
+
+#menu-icon-container {
+    align-items: center;
+    display: none;
+    margin-right: 15px;
+    margin-left: 20px;
+}
+
+#menu-icon {
+    width: 25px;
+    height: auto;
+}
+
+#side-nav-close {
+    width: 100%;
+    text-align: right;
+    padding: 5px;
+    font-size: 30px;
+    color: white;
+}
+
+#close-icon {
+    margin-right: 20px;
+    width: 35px;
+    height: auto;
+}
+
+.side-nav {
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black; 
+    overflow-x: hidden;
+    padding-top: 50px;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins';
+}
+
+.side-nav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+  
+.side-nav a:hover {
+    text-shadow: 0 0 15px yellow;
+    text-decoration: underline;
+    text-decoration-color: yellow;
 }
 
 .welcome{
@@ -865,27 +925,54 @@ p
         margin-top: 10px;
     }
 
-    .navbar
-    {
-        margin-top: 70px;
-        justify-content: center;
-        gap: 0px;
+    #menu-icon-container {
+        display: flex;
     }
 
-    .home,.about
+    .sign-in{
+        display: none;
+    }
+
+    #logo{
+        margin: 0;
+    }
+
+    .navbar
     {
-        margin-bottom: 20px;
-        margin-right: 40px;
+        gap: 0px;
+        align-items: center;
     }
 
     .home,.about,.contact
     {
-        margin-left: -10px;
+        display: none;
     }
 
     .streamixx
     {
-        justify-content: center;
+        display: none;
+    }
+
+    #bookmark-icon{
+        margin-right: 20px;
+    }
+
+    #search-bar-container{
+        width: 60%;
+        margin-right: 5%;
+    }
+
+    #search-bar {
+        width: 68%;
+    }
+
+    #search-options {
+        width: 27%;
+        font-size: 12px;
+    }
+
+    .sign-in {
+        justify-self: flex-end;
     }
 
     .welcomepage

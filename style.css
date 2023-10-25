@@ -9,15 +9,16 @@
 }
 html {
     scroll-behavior: smooth;
-    color: white;
+    color: #ffffff;
 }
 
 body {
     font-family: 'Poppins';
+
 }
 
 body {
-    background: black;
+    background: black !important;
 }
 
 @font-face {
@@ -1060,67 +1061,99 @@ p {
 
 /* CSS for Footer Section */
 
-.footer {
+.footerSection {
     background-color: black;
-    color: white;
-    padding: 20px 0;
-}
-
-.footer-content {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
+
 }
 
-.footer-links a,
-.social-links a {
-    color: white;
-    text-decoration: none;
-    margin-right: 20px;
-    font-weight: 600;
-    transition: color 0.3s;
-}
-
-.footer-links a:hover,
-.social-links a:hover {
-    color: yellow;
-}
-
-.social-links a img {
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
-    transition: transform 0.3s;
-}
-
-.social-links a:hover img {
-    transform: scale(1.2);
-}
-
-.copyright {
-    text-align: center;
-    font-size: 14px;
+.title {
+    color: black;
+    font-family: "roboto";
+    border-width: 0px;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #a89032;
+    width: 300px;
     margin-top: 20px;
+    margin-bottom: 25px;
+    font-size: 25px;
+    font-weight: bold;
 }
 
-/* Background Animation */
-.footer {
-    animation: backgroundAnimation 8s linear infinite;
+.logo-section {
+    background-color: black;
+    text-align: center;
+    padding: 20px;
 }
 
-@keyframes backgroundAnimation {
-    0% {
-        background-color: #ff3131;
-    }
+.logo-section i {
+    font-size: 30px;
+    margin: 0 10px;
+    color: white;
+}
 
-    50% {
-        background-color: #333;
-    }
+.additional-info {
+    background-color: black;
+    text-align: center;
+    padding: 20px;
 
+}
+
+.additional-info p {
+    color: white;
+    margin: 0;
+}
+
+.additional-info .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.additional-info .row .item {
+    margin: 10px;
+
+    color: white;
+}
+
+.arrow-icon {
+    font-size: 16px;
+    color: white;
+}
+
+.checkmark-cross {
+    font-size: 16px;
+    color: white;
+}
+
+.company-logo {
+    text-align: center;
+    padding: 20px;
+}
+
+.company-logo img {
+    max-width: 100px;
+
+    display: block;
+
+    margin: 2px;
+
+
+}
+
+.company-logo p {
+    margin: 10px 0;
+
+    color: white;
+    display: flex;
+
+
+
+}
     100% {
         background-color: #ff3131;
     }

@@ -63,11 +63,11 @@ a {
 
 .home,
 .about,
-.contact {
+/* .contact {
     font-size: 25px;
     font-family: 'Poppins';
     color: white;
-}
+} */
 
 /* Navigation links style */
 .navbar {
@@ -702,17 +702,17 @@ ion-icon{
     opacity: 100%;
 }
 
-.contactuspage {
+/* .contactuspage {
     height: 700px;
-}
+} */
 
-.contactname {
+/* .contactname {
     color: rgb(212, 72, 72);
     text-align: center;
     font-size: 4vw;
     font-weight: 600;
     margin-bottom: 50px;
-}
+} */
 
 .topicon {
     background-image: url(./Data/extras/OIP.png);
@@ -730,27 +730,29 @@ ion-icon{
 label {
     margin-left: 20px;
     display: block;
+    color: #fff;
 }
 
-.feedimage {
+/* .feedimage {
     display: flex;
     background-image: url(./Data/extras/Feedback.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 540px;
     height: 540px;
-}
+} */
 
-.contactuscontainer {
+/* .contactuscontainer {
     display: flex;
     gap: 150px;
     margin-left: 30px;
 
-}
+} */
 
-.formitem {
+/* .formitem {
     font-size: 20px;
-}
+    color: #fff;
+} */
 
 .inputbox {
     width: 300px;
@@ -765,17 +767,7 @@ label {
     margin-top: 20px;
 }
 
-.submit-button {
-    width: 100px;
-    height: 30px;
-    margin-top: 30px;
-    margin-left: 20px;
-    font-weight: 700;
-    font-size: 1vw;
-    color: black;
-    background-color: yellow;
-    border: 2px solid red;
-}
+
 
 .email-class {
     margin-top: 30px;
@@ -799,10 +791,7 @@ label {
     font-size: 20px;
 }
 
-.submit-button {
-    color: black;
-    font-size: 15px;
-}
+
 
 .action-genre {
     height: 400px;
@@ -835,10 +824,10 @@ label {
 }
 
 
-.feedbackform {
+/* .feedbackform {
     display: flex;
     flex-direction: column;
-}
+} */
 
 h1 {
     font-size: 60px;
@@ -930,9 +919,9 @@ p {
         font-size: 15px;
     }
 
-    .contactname {
+    /* .contactname {
         font-size: 50px;
-    }
+    } */
 
     .action-genre video {
         object-fit: cover;
@@ -974,9 +963,9 @@ p {
 
     .home,
     .about,
-    .contact {
+    /* .contact {
         margin-left: -10px;
-    }
+    } */
 
     .streamixx {
         justify-content: center;
@@ -1155,10 +1144,8 @@ p {
 
 
 }
-    100% {
-        background-color: #ff3131;
-    }
-}
+   
+
 
 .card-group{
     height: 400px;
@@ -1244,3 +1231,100 @@ img{
     padding: 15px;
     border: 1px solid black;
 }
+/* Add your existing styles */
+
+.contactuspage {
+    background-color: #f5f5f5;
+    padding:0;
+  }
+  
+  .contactname {
+    font-size: 36px;
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    margin-bottom: 30px;
+    margin: 0px;
+  }
+  
+  .contactuscontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+  }
+  
+  .feedbackform {
+    width: 45%;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .formitem {
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  .inputbox,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin-top: 5px;
+    box-sizing: border-box;
+  }
+  
+  /* .button-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .submit-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  } */
+  
+  .feedimage {
+    /* width: 45%; */
+    /* height: 500px; */
+    background: url('./Data/extras/Feedback.png') ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 540px;
+    height: 540px;
+    border-radius: 10px;
+  }
+  
+  .button-group {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+  }
+  
+  .submit-button,
+  .reset-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 1rem;
+  }
+  
+  .submit-button:hover,
+  .reset-button:hover {
+    background-color: #45a049;
+  }
+  /* label{
+    color: white;
+  } */

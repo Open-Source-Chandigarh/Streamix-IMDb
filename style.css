@@ -35,6 +35,7 @@ body {
     width: 40px;
     margin-right: 5px;
     display: flex;
+    text-decoration-line: none;
 }
 
 a {
@@ -1097,27 +1098,20 @@ p {
 }
 
 .additional-info {
-    background-color: black;
-    text-align: center;
-    padding: 20px;
-
-}
-
-.additional-info p {
-    color: white;
-    margin: 0;
-}
-
-.additional-info .row {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
-.additional-info .row .item {
-    margin: 10px;
+.row {
+    display: flex;
+    justify-content: space-between;
+}
 
-    color: white;
+.item {
+    text-align: center;
+    flex-basis: calc(50% - 10px);
+    font-size: 20px;
 }
 
 .arrow-icon {
